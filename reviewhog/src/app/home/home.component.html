@@ -1,0 +1,75 @@
+<!-- Example DataTable for Dashboard Demo-->
+<div class="card container" style="margin-top:10%">
+    <div class="card-header">Products</div>
+    <div class="card-body">
+      <div
+        class="datatable-wrapper datatable-loading no-footer sortable searchable fixed-columns"
+      >
+       
+        <div class="datatable-container">
+          <table id="datatablesSimple" class="datatable-table">
+            <thead>
+              <tr>
+                <th>Code</th>
+                <th
+                >
+                  <a
+                    >Name</a
+                  >
+                </th>
+                <th
+                >
+                  <a
+                    >Avg Rating</a
+                  >
+                </th>
+                <th
+                >
+                  <a
+                    class="datatable-sorter"
+                    >Sentiment Score</a
+                  >
+                </th>
+                <th
+                >
+                  <a
+                    class="datatable-sorter"
+                    >Sentiment</a
+                  >
+                </th>
+             
+    
+              </tr>
+            </thead>
+            <tbody>
+              <tr (click)="select(product.id)" data-index="0" *ngFor="let product of products">
+                <td>{{ product.id }}</td>
+                <td>{{ product.title }}</td>
+                <td>{{ product.avgRating }}</td>
+                <td>{{ product.ratingScore }}</td>
+                <td>
+                  <div
+                    class="badge bg-success text-white rounded-pill"
+                   *ngIf="product.sentiment == 'Positive' ">
+                  {{product.sentiment}}
+                  </div>
+                  <div
+                    class="badge bg-danger text-white rounded-pill"
+                   *ngIf="product.sentiment == 'Negative' ">
+                  {{product.sentiment}}
+                  </div>
+                  <div
+                    class="badge bg-warning text-white rounded-pill"
+                   *ngIf="product.sentiment == 'Neutral' ">
+                  {{product.sentiment}}
+                  </div>
+                </td>
+              </tr>
+              
+            </tbody>
+          </table>
+        </div>
+        
+      </div>
+    </div>
+  </div>
