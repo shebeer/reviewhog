@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewHogAPI", "..\ReviewHo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentimentAnalyzer", "..\SentimentAnalyzer\SentimentAnalyzer.csproj", "{5F517316-DA73-4233-AB11-73DBCE40954D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "..\DataAccess\DataAccess.csproj", "{7D6D6E38-068B-4B47-AAC9-C0BCDAECDDCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{5F517316-DA73-4233-AB11-73DBCE40954D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F517316-DA73-4233-AB11-73DBCE40954D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F517316-DA73-4233-AB11-73DBCE40954D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D6D6E38-068B-4B47-AAC9-C0BCDAECDDCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D6D6E38-068B-4B47-AAC9-C0BCDAECDDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D6D6E38-068B-4B47-AAC9-C0BCDAECDDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D6D6E38-068B-4B47-AAC9-C0BCDAECDDCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
