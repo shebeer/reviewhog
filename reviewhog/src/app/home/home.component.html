@@ -1,0 +1,76 @@
+<!-- Example DataTable for Dashboard Demo-->
+<div class="card container" style="margin-top:10%">
+    <div class="card-header">Products</div>
+    <div class="card-body">
+      <div
+        class="datatable-wrapper datatable-loading no-footer sortable searchable fixed-columns"
+      >
+       
+        <div class="datatable-container">
+          <table id="datatablesSimple" class="datatable-table">
+            <thead>
+              <tr>
+                <th>Code</th>
+                <th
+                >
+                  <a
+                    >Name</a
+                  >
+                </th>
+                <th
+                >
+                  <a
+                    >Avg Rating</a
+                  >
+                </th>
+                <th
+                >
+                  <a
+                    class="datatable-sorter"
+                    >Sentiment Score</a
+                  >
+                </th>
+                <th
+                >
+                  <a
+                    class="datatable-sorter"
+                    >Sentiment</a
+                  >
+                </th>
+             
+    
+              </tr>
+            </thead>
+            <tbody>
+              <tr data-index="0" *ngFor="let product of products">
+                <td><input class="form-check-input" id="checkAccountChanges" type="checkbox"> {{ product.id }}</td>
+                <td (click)="select(product.id)" ><a>{{ product.title }}</a></td>
+                <td (click)="select(product.id)" >{{ product.avgRating }}</td>
+                <td (click)="select(product.id)" >{{ product.ratingScore }}</td>
+                <td (click)="select(product.id)" >
+                  <div
+                    class="badge bg-success text-white rounded-pill"
+                   *ngIf="product.sentiment == 'Positive' ">
+                  {{product.sentiment}}
+                  </div>
+                  <div
+                    class="badge bg-danger text-white rounded-pill"
+                   *ngIf="product.sentiment == 'Negative' ">
+                  {{product.sentiment}}
+                  </div>
+                  <div
+                    class="badge bg-warning text-white rounded-pill"
+                   *ngIf="product.sentiment == 'Neutral' ">
+                  {{product.sentiment}}
+                  </div>
+                </td>
+              </tr>
+              
+            </tbody>
+          </table>
+          <button class="btn btn-primary" type="button" style="float:right">Compare</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
