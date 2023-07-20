@@ -40,7 +40,7 @@
                         12%
                     </div>
                 </div>
-                <div class="ms-2"><i class="fas fa-star fa-2x text-gray-200"></i></div>
+                <div class="ms-2"><i class="fas fa-star fa-2x" style="color:#ffd700"></i></div>
             </div>
         </div>
     </div>
@@ -48,13 +48,23 @@
 
 </div>
 
-<div class="card mt-4 col-md-6 col-md-offset-6" style="width:50%;margin:0 auto;">
-    <div class="card-header">Key Terms</div>
+<div class="col-md-6 col-md-offset-6" style="width:50%;margin:0 auto;">
+<div class="card mt-4 col-md-6 floatLeft" style="padding:1%">
+    <div class="card-header text-center" style="background-color: green;color: #fff;">Positive Terms</div>
     <div class="list-group list-group-flush small">
-        <a class="list-group-item list-group-item-action" href="#!" *ngFor="let key of product.keywords">
+        <a class="list-group-item list-group-item-action" href="#!" *ngFor="let key of product.positiveKeywords">
             <i class="fas fa-tag fa-fw text-purple me-2"></i>
             {{key}}
         </a>
     </div>
-
+</div>
+<div class="card mt-4 col-md-6 floatLeft" style="padding:1%">
+    <div class="card-header text-center" style="background-color: #e81500;color: #fff;">Negative Terms</div>
+    <div class="list-group list-group-flush small">
+        <a class="list-group-item list-group-item-action" href="#!" *ngFor="let key of product.negativeKeywords">
+            <i class="fas fa-tag fa-fw text-purple me-2"></i>
+            {{key}}
+        </a>
+    </div>
+</div>
 </div>

@@ -42,12 +42,12 @@
               </tr>
             </thead>
             <tbody>
-              <tr (click)="select(product.id)" data-index="0" *ngFor="let product of products">
-                <td>{{ product.id }}</td>
-                <td>{{ product.title }}</td>
-                <td>{{ product.avgRating }}</td>
-                <td>{{ product.ratingScore }}</td>
-                <td>
+              <tr data-index="0" *ngFor="let product of products">
+                <td><input class="form-check-input" id="checkAccountChanges" type="checkbox"> {{ product.id }}</td>
+                <td (click)="select(product.id)" ><a>{{ product.title }}</a></td>
+                <td (click)="select(product.id)" >{{ product.avgRating }}</td>
+                <td (click)="select(product.id)" >{{ product.ratingScore }}</td>
+                <td (click)="select(product.id)" >
                   <div
                     class="badge bg-success text-white rounded-pill"
                    *ngIf="product.sentiment == 'Positive' ">
@@ -68,6 +68,7 @@
               
             </tbody>
           </table>
+          <button class="btn btn-primary" type="button" style="float:right">Compare</button>
         </div>
         
       </div>
