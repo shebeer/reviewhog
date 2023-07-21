@@ -27,7 +27,7 @@ namespace SentimentAnalyzer
                 {
                     SentimentResponseModel response = GoogNLCore.AnalyzeText(review.ReviewText);
 
-                    db.InsertWithIdentity(new ReviewSentimental()
+                    db.Insert(new ReviewSentimental()
                     {
                         ProductId = review.ProductId,
                         ReviewId = review.Id,
@@ -62,7 +62,7 @@ namespace SentimentAnalyzer
                         }
                         else
                         {
-                            db.InsertWithIdentity(new ProductEntity()
+                            db.Insert(new ProductEntity()
                             {
                                 HitCount = 1,
                                 EntityAvgSentiment = entity.SentimentScore,
@@ -110,12 +110,12 @@ namespace SentimentAnalyzer
                     sentiment = "Negative";
                 }
 
-                db.InsertWithIdentity(new ProductSentiment()
+                db.Insert(new ProductSentiment()
                 {
                     ProductMappingId = mappingId,
                     SentimentScoreAvg = sentimentScoreAvg,
                     RatingCount = ratingCount,
-                    RatingScoreAvg = (totalRating/ratingCount),
+                    RatingScoreAvg = (totalRating / ratingCount),
                     Sentiment = sentiment
                 });
             }

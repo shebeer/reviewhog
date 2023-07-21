@@ -74,14 +74,14 @@ namespace DataModels
 	[Table(Schema="dbo", Name="product_detail")]
 	public partial class ProductDetail
 	{
-		[Column("id"),                 PrimaryKey,  NotNull] public long     Id               { get; set; } // bigint
-		[Column("product_mapping_id"),              NotNull] public long     ProductMappingId { get; set; } // bigint
-		[Column("name"),                            NotNull] public string   Name             { get; set; } // nvarchar(100)
-		[Column("upc"),                   Nullable         ] public string   Upc              { get; set; } // nvarchar(50)
-		[Column("brand_name"),            Nullable         ] public string   BrandName        { get; set; } // nvarchar(250)
-		[Column("supermarket_id"),                  NotNull] public long     SupermarketId    { get; set; } // bigint
-		[Column("star_rating_score"),     Nullable         ] public decimal? StarRatingScore  { get; set; } // decimal(3, 1)
-		[Column("total_star_ratings"),    Nullable         ] public decimal? TotalStarRatings { get; set; } // numeric(18, 0)
+		[Column("id"),                 PrimaryKey,  Identity] public long     Id               { get; set; } // bigint
+		[Column("product_mapping_id"), NotNull              ] public long     ProductMappingId { get; set; } // bigint
+		[Column("name"),               NotNull              ] public string   Name             { get; set; } // nvarchar(100)
+		[Column("upc"),                   Nullable          ] public string   Upc              { get; set; } // nvarchar(50)
+		[Column("brand_name"),            Nullable          ] public string   BrandName        { get; set; } // nvarchar(250)
+		[Column("supermarket_id"),     NotNull              ] public long     SupermarketId    { get; set; } // bigint
+		[Column("star_rating_score"),     Nullable          ] public decimal? StarRatingScore  { get; set; } // decimal(3, 1)
+		[Column("total_star_ratings"),    Nullable          ] public decimal? TotalStarRatings { get; set; } // numeric(18, 0)
 
 		#region Associations
 
@@ -109,11 +109,11 @@ namespace DataModels
 	[Table(Schema="dbo", Name="product_entities")]
 	public partial class ProductEntity
 	{
-		[Column("id"),                   NotNull    ] public long   Id                 { get; set; } // bigint
-		[Column("product_id"),           NotNull    ] public long   ProductId          { get; set; } // bigint
-		[Column("entity_name"),          NotNull    ] public string EntityName         { get; set; } // nvarchar(250)
-		[Column("entity_avg_sentiment"), NotNull    ] public float  EntityAvgSentiment { get; set; } // real
-		[Column("hit_count"),               Nullable] public long?  HitCount           { get; set; } // bigint
+		[Column("id"),                   PrimaryKey,  Identity] public long   Id                 { get; set; } // bigint
+		[Column("product_id"),           NotNull              ] public long   ProductId          { get; set; } // bigint
+		[Column("entity_name"),          NotNull              ] public string EntityName         { get; set; } // nvarchar(250)
+		[Column("entity_avg_sentiment"), NotNull              ] public float  EntityAvgSentiment { get; set; } // real
+		[Column("hit_count"),               Nullable          ] public long?  HitCount           { get; set; } // bigint
 
 		#region Associations
 
@@ -156,21 +156,21 @@ namespace DataModels
 	[Table(Schema="dbo", Name="product_sentiments")]
 	public partial class ProductSentiment
 	{
-		[Column("id"),                  PrimaryKey,  NotNull] public long   Id                { get; set; } // bigint
-		[Column("rating_score_avg"),       Nullable         ] public float? RatingScoreAvg    { get; set; } // real
-		[Column("rating_count"),           Nullable         ] public long?  RatingCount       { get; set; } // bigint
-		[Column("sentiment_score_avg"),    Nullable         ] public float? SentimentScoreAvg { get; set; } // real
-		[Column("sentiment"),              Nullable         ] public string Sentiment         { get; set; } // nvarchar(20)
-		[Column("product_mapping_id"),               NotNull] public long   ProductMappingId  { get; set; } // bigint
+		[Column("id"),                  PrimaryKey,  Identity] public long   Id                { get; set; } // bigint
+		[Column("rating_score_avg"),       Nullable          ] public float? RatingScoreAvg    { get; set; } // real
+		[Column("rating_count"),           Nullable          ] public long?  RatingCount       { get; set; } // bigint
+		[Column("sentiment_score_avg"),    Nullable          ] public float? SentimentScoreAvg { get; set; } // real
+		[Column("sentiment"),              Nullable          ] public string Sentiment         { get; set; } // nvarchar(20)
+		[Column("product_mapping_id"),  NotNull              ] public long   ProductMappingId  { get; set; } // bigint
 	}
 
 	[Table(Schema="dbo", Name="review_sentimental")]
 	public partial class ReviewSentimental
 	{
-		[Column("id"),              PrimaryKey,  NotNull] public long  Id             { get; set; } // bigint
-		[Column("product_id"),         Nullable         ] public long? ProductId      { get; set; } // bigint
-		[Column("review_id"),                    NotNull] public long  ReviewId       { get; set; } // bigint
-		[Column("sentiment_score"),              NotNull] public float SentimentScore { get; set; } // real
+		[Column("id"),              PrimaryKey,  Identity] public long  Id             { get; set; } // bigint
+		[Column("product_id"),         Nullable          ] public long? ProductId      { get; set; } // bigint
+		[Column("review_id"),       NotNull              ] public long  ReviewId       { get; set; } // bigint
+		[Column("sentiment_score"), NotNull              ] public float SentimentScore { get; set; } // real
 
 		#region Associations
 
@@ -311,6 +311,12 @@ namespace DataModels
 	public static partial class TableExtensions
 	{
 		public static ProductDetail Find(this ITable<ProductDetail> table, long Id)
+		{
+			return table.FirstOrDefault(t =>
+				t.Id == Id);
+		}
+
+		public static ProductEntity Find(this ITable<ProductEntity> table, long Id)
 		{
 			return table.FirstOrDefault(t =>
 				t.Id == Id);
