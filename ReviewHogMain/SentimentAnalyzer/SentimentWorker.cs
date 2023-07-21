@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
-using DataModels;
+﻿using DataModels;
 using LinqToDB;
+using System;
+using System.Linq;
 
 namespace SentimentAnalyzer
 {
@@ -82,7 +77,48 @@ namespace SentimentAnalyzer
 
         private static void CalculateAverageScores()
         {
+            var db = new ReviewHogMainDB();
 
+            var mappingIds = db.ProductDetails.Select(x => x.ProductMappingId).Distinct().ToList();
+            foreach (var mappingId in mappingIds)
+            {
+                var productIds = db.ProductDetails.Where(x => x.ProductMappingId == mappingId).Select(x => x.Id)
+                    .ToList();
+
+                float sentimentScore = 0;
+                int count = 0;
+                float totalRating = 0;
+                long ratingCount = 0;
+                foreach (var productId in productIds)
+                {
+                    sentimentScore+= db.ReviewSentimentals.Where(x => x.ProductId == productId).Sum(x => x.SentimentScore);
+                    count += db.ReviewSentimentals.Count(x => x.ProductId == productId);
+                    var rating = (float)db.ProductDetails.Where(x => x.Id == productId).Select(x => x.StarRatingScore).First();
+                    var rCount = (float)db.ProductDetails.Where(x => x.Id == productId).Select(x => x.TotalStarRatings).First();
+                    totalRating += rating * rCount;
+                    ratingCount += (long)rCount;
+                }
+
+                var sentimentScoreAvg = sentimentScore / count;
+                string sentiment = "Neutral";
+                if (sentimentScoreAvg > 0)
+                {
+                    sentiment = "Positive";
+                }
+                else if (sentimentScoreAvg < 0)
+                {
+                    sentiment = "Negative";
+                }
+
+                db.InsertWithIdentity(new ProductSentiment()
+                {
+                    ProductMappingId = mappingId,
+                    SentimentScoreAvg = sentimentScoreAvg,
+                    RatingCount = ratingCount,
+                    RatingScoreAvg = (totalRating/ratingCount),
+                    Sentiment = sentiment
+                });
+            }
         }
     }
 }

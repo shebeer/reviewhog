@@ -1,0 +1,17 @@
+C:\OtherSrc\reviewhog\ReviewHogMain\ReviewHogInventoryBot\bin\Debug\ReviewHogInventoryBot.exe.config
+C:\OtherSrc\reviewhog\ReviewHogMain\ReviewHogInventoryBot\bin\Debug\ReviewHogInventoryBot.exe
+C:\OtherSrc\reviewhog\ReviewHogMain\ReviewHogInventoryBot\bin\Debug\ReviewHogInventoryBot.pdb
+C:\OtherSrc\reviewhog\ReviewHogMain\ReviewHogInventoryBot\bin\Debug\linq2db.dll
+C:\OtherSrc\reviewhog\ReviewHogMain\ReviewHogInventoryBot\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\OtherSrc\reviewhog\ReviewHogMain\ReviewHogInventoryBot\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\OtherSrc\reviewhog\ReviewHogMain\ReviewHogInventoryBot\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\OtherSrc\reviewhog\ReviewHogMain\ReviewHogInventoryBot\bin\Debug\linq2db.xml
+C:\OtherSrc\reviewhog\ReviewHogMain\ReviewHogInventoryBot\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\OtherSrc\reviewhog\ReviewHogMain\ReviewHogInventoryBot\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\OtherSrc\reviewhog\ReviewHogMain\ReviewHogInventoryBot\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\OtherSrc\reviewhog\ReviewHogMain\ReviewHogInventoryBot\obj\Debug\ReviewHogInventoryBot.csproj.AssemblyReference.cache
+C:\OtherSrc\reviewhog\ReviewHogMain\ReviewHogInventoryBot\obj\Debug\ReviewHogInventoryBot.csproj.SuggestedBindingRedirects.cache
+C:\OtherSrc\reviewhog\ReviewHogMain\ReviewHogInventoryBot\obj\Debug\ReviewHogInventoryBot.csproj.CoreCompileInputs.cache
+C:\OtherSrc\reviewhog\ReviewHogMain\ReviewHogInventoryBot\obj\Debug\ReviewHogInventoryBot.csproj.CopyComplete
+C:\OtherSrc\reviewhog\ReviewHogMain\ReviewHogInventoryBot\obj\Debug\ReviewHogInventoryBot.exe
+C:\OtherSrc\reviewhog\ReviewHogMain\ReviewHogInventoryBot\obj\Debug\ReviewHogInventoryBot.pdb
