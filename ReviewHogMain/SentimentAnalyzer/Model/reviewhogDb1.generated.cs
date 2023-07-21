@@ -9,10 +9,13 @@
 
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 
 using LinqToDB;
+using LinqToDB.Common;
 using LinqToDB.Configuration;
+using LinqToDB.Data;
 using LinqToDB.Mapping;
 
 namespace DataModels
@@ -24,13 +27,14 @@ namespace DataModels
 	/// </summary>
 	public partial class ReviewHogMainDB : LinqToDB.Data.DataConnection
 	{
-		public ITable<DatabaseFirewallRule> DatabaseFirewallRules { get { return this.GetTable<DatabaseFirewallRule>(); } }
-		public ITable<ProductDetail>        ProductDetails        { get { return this.GetTable<ProductDetail>(); } }
-		public ITable<ProductEntity>        ProductEntities       { get { return this.GetTable<ProductEntity>(); } }
-		public ITable<ProductReview>        ProductReviews        { get { return this.GetTable<ProductReview>(); } }
-		public ITable<ProductSentiment>     ProductSentiments     { get { return this.GetTable<ProductSentiment>(); } }
-		public ITable<ReviewSentimental>    ReviewSentimentals    { get { return this.GetTable<ReviewSentimental>(); } }
-		public ITable<Supermarket>          Supermarkets          { get { return this.GetTable<Supermarket>(); } }
+		public ITable<sys_DatabaseFirewallRule> DatabaseFirewallRules { get { return this.GetTable<sys_DatabaseFirewallRule>(); } }
+		public ITable<ProductDetail>            ProductDetails        { get { return this.GetTable<ProductDetail>(); } }
+		public ITable<ProductEntity>            ProductEntities       { get { return this.GetTable<ProductEntity>(); } }
+		public ITable<ProductReview>            ProductReviews        { get { return this.GetTable<ProductReview>(); } }
+		public ITable<ProductSentiment>         ProductSentiments     { get { return this.GetTable<ProductSentiment>(); } }
+		public ITable<ReviewSentimental>        ReviewSentimentals    { get { return this.GetTable<ReviewSentimental>(); } }
+		public ITable<Supermarket>              Supermarkets          { get { return this.GetTable<Supermarket>(); } }
+		public ITable<Sysdiagram>               Sysdiagrams           { get { return this.GetTable<Sysdiagram>(); } }
 
 		public ReviewHogMainDB()
 		{
@@ -57,7 +61,7 @@ namespace DataModels
 	}
 
 	[Table(Schema="sys", Name="database_firewall_rules", IsView=true)]
-	public partial class DatabaseFirewallRule
+	public partial class sys_DatabaseFirewallRule
 	{
 		[Column("id"),               Identity] public int      Id             { get; set; } // int
 		[Column("name"),             NotNull ] public string   Name           { get; set; } // nvarchar(128)
@@ -105,11 +109,11 @@ namespace DataModels
 	[Table(Schema="dbo", Name="product_entities")]
 	public partial class ProductEntity
 	{
-		[Column("id"),                   PrimaryKey,  NotNull] public long   Id                 { get; set; } // bigint
-		[Column("product_id"),                        NotNull] public long   ProductId          { get; set; } // bigint
-		[Column("entity_name"),                       NotNull] public string EntityName         { get; set; } // nvarchar(250)
-		[Column("entity_avg_sentiment"),              NotNull] public float  EntityAvgSentiment { get; set; } // real
-		[Column("hit_count"),               Nullable         ] public long?  HitCount           { get; set; } // bigint
+		[Column("id"),                   NotNull    ] public long   Id                 { get; set; } // bigint
+		[Column("product_id"),           NotNull    ] public long   ProductId          { get; set; } // bigint
+		[Column("entity_name"),          NotNull    ] public string EntityName         { get; set; } // nvarchar(250)
+		[Column("entity_avg_sentiment"), NotNull    ] public float  EntityAvgSentiment { get; set; } // real
+		[Column("hit_count"),               Nullable] public long?  HitCount           { get; set; } // bigint
 
 		#region Associations
 
@@ -192,15 +196,121 @@ namespace DataModels
 		[Column("supermarket_name"),    Nullable         ] public string SupermarketName { get; set; } // nvarchar(50)
 	}
 
+	[Table(Schema="dbo", Name="sysdiagrams")]
+	public partial class Sysdiagram
+	{
+		[Column("name"),         NotNull              ] public string Name        { get; set; } // nvarchar(128)
+		[Column("principal_id"), NotNull              ] public int    PrincipalId { get; set; } // int
+		[Column("diagram_id"),   PrimaryKey,  Identity] public int    DiagramId   { get; set; } // int
+		[Column("version"),         Nullable          ] public int?   Version     { get; set; } // int
+		[Column("definition"),      Nullable          ] public byte[] Definition  { get; set; } // varbinary(max)
+	}
+
+	public static partial class ReviewHogMainDBStoredProcedures
+	{
+		#region SpAlterdiagram
+
+		public static int SpAlterdiagram(this ReviewHogMainDB dataConnection, string @diagramname, int? @owner_id, int? @version, byte[] @definition)
+		{
+			return dataConnection.ExecuteProc("[dbo].[sp_alterdiagram]",
+				new DataParameter("@diagramname", @diagramname, LinqToDB.DataType.NVarChar),
+				new DataParameter("@owner_id",    @owner_id,    LinqToDB.DataType.Int32),
+				new DataParameter("@version",     @version,     LinqToDB.DataType.Int32),
+				new DataParameter("@definition",  @definition,  LinqToDB.DataType.VarBinary));
+		}
+
+		#endregion
+
+		#region SpCreatediagram
+
+		public static int SpCreatediagram(this ReviewHogMainDB dataConnection, string @diagramname, int? @owner_id, int? @version, byte[] @definition)
+		{
+			return dataConnection.ExecuteProc("[dbo].[sp_creatediagram]",
+				new DataParameter("@diagramname", @diagramname, LinqToDB.DataType.NVarChar),
+				new DataParameter("@owner_id",    @owner_id,    LinqToDB.DataType.Int32),
+				new DataParameter("@version",     @version,     LinqToDB.DataType.Int32),
+				new DataParameter("@definition",  @definition,  LinqToDB.DataType.VarBinary));
+		}
+
+		#endregion
+
+		#region SpDropdiagram
+
+		public static int SpDropdiagram(this ReviewHogMainDB dataConnection, string @diagramname, int? @owner_id)
+		{
+			return dataConnection.ExecuteProc("[dbo].[sp_dropdiagram]",
+				new DataParameter("@diagramname", @diagramname, LinqToDB.DataType.NVarChar),
+				new DataParameter("@owner_id",    @owner_id,    LinqToDB.DataType.Int32));
+		}
+
+		#endregion
+
+		#region SpHelpdiagramdefinition
+
+		public static IEnumerable<SpHelpdiagramdefinitionResult> SpHelpdiagramdefinition(this ReviewHogMainDB dataConnection, string @diagramname, int? @owner_id)
+		{
+			return dataConnection.QueryProc<SpHelpdiagramdefinitionResult>("[dbo].[sp_helpdiagramdefinition]",
+				new DataParameter("@diagramname", @diagramname, LinqToDB.DataType.NVarChar),
+				new DataParameter("@owner_id",    @owner_id,    LinqToDB.DataType.Int32));
+		}
+
+		public partial class SpHelpdiagramdefinitionResult
+		{
+			public int?   version    { get; set; }
+			public byte[] definition { get; set; }
+		}
+
+		#endregion
+
+		#region SpHelpdiagrams
+
+		public static IEnumerable<SpHelpdiagramsResult> SpHelpdiagrams(this ReviewHogMainDB dataConnection, string @diagramname, int? @owner_id)
+		{
+			return dataConnection.QueryProc<SpHelpdiagramsResult>("[dbo].[sp_helpdiagrams]",
+				new DataParameter("@diagramname", @diagramname, LinqToDB.DataType.NVarChar),
+				new DataParameter("@owner_id",    @owner_id,    LinqToDB.DataType.Int32));
+		}
+
+		public partial class SpHelpdiagramsResult
+		{
+			public string Database { get; set; }
+			public string Name     { get; set; }
+			public int    ID       { get; set; }
+			public string Owner    { get; set; }
+			public int    OwnerID  { get; set; }
+		}
+
+		#endregion
+
+		#region SpRenamediagram
+
+		public static int SpRenamediagram(this ReviewHogMainDB dataConnection, string @diagramname, int? @owner_id, string @new_diagramname)
+		{
+			return dataConnection.ExecuteProc("[dbo].[sp_renamediagram]",
+				new DataParameter("@diagramname",     @diagramname,     LinqToDB.DataType.NVarChar),
+				new DataParameter("@owner_id",        @owner_id,        LinqToDB.DataType.Int32),
+				new DataParameter("@new_diagramname", @new_diagramname, LinqToDB.DataType.NVarChar));
+		}
+
+		#endregion
+	}
+
+	public static partial class SqlFunctions
+	{
+		#region FnDiagramobjects
+
+		[Sql.Function(Name="dbo.fn_diagramobjects", ServerSideOnly=true)]
+		public static int? FnDiagramobjects()
+		{
+			throw new InvalidOperationException();
+		}
+
+		#endregion
+	}
+
 	public static partial class TableExtensions
 	{
 		public static ProductDetail Find(this ITable<ProductDetail> table, long Id)
-		{
-			return table.FirstOrDefault(t =>
-				t.Id == Id);
-		}
-
-		public static ProductEntity Find(this ITable<ProductEntity> table, long Id)
 		{
 			return table.FirstOrDefault(t =>
 				t.Id == Id);
@@ -228,6 +338,12 @@ namespace DataModels
 		{
 			return table.FirstOrDefault(t =>
 				t.Id == Id);
+		}
+
+		public static Sysdiagram Find(this ITable<Sysdiagram> table, int DiagramId)
+		{
+			return table.FirstOrDefault(t =>
+				t.DiagramId == DiagramId);
 		}
 	}
 }
