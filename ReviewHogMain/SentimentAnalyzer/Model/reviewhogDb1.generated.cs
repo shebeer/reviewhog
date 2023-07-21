@@ -26,7 +26,9 @@ namespace DataModels
 	{
 		public ITable<DatabaseFirewallRule> DatabaseFirewallRules { get { return this.GetTable<DatabaseFirewallRule>(); } }
 		public ITable<ProductDetail>        ProductDetails        { get { return this.GetTable<ProductDetail>(); } }
+		public ITable<ProductEntity>        ProductEntities       { get { return this.GetTable<ProductEntity>(); } }
 		public ITable<ProductReview>        ProductReviews        { get { return this.GetTable<ProductReview>(); } }
+		public ITable<ProductSentiment>     ProductSentiments     { get { return this.GetTable<ProductSentiment>(); } }
 		public ITable<ReviewSentimental>    ReviewSentimentals    { get { return this.GetTable<ReviewSentimental>(); } }
 		public ITable<Supermarket>          Supermarkets          { get { return this.GetTable<Supermarket>(); } }
 
@@ -80,6 +82,12 @@ namespace DataModels
 		#region Associations
 
 		/// <summary>
+		/// FK__product_e__produ__03F0984C_BackReference
+		/// </summary>
+		[Association(ThisKey="Id", OtherKey="ProductId", CanBeNull=true, Relationship=LinqToDB.Mapping.Relationship.OneToMany, IsBackReference=true)]
+		public IEnumerable<ProductEntity> Producteprodu03F0984C { get; set; }
+
+		/// <summary>
 		/// FK_product_review_product_detail_BackReference
 		/// </summary>
 		[Association(ThisKey="Id", OtherKey="ProductId", CanBeNull=true, Relationship=LinqToDB.Mapping.Relationship.OneToMany, IsBackReference=true)]
@@ -90,6 +98,26 @@ namespace DataModels
 		/// </summary>
 		[Association(ThisKey="Id", OtherKey="ProductId", CanBeNull=true, Relationship=LinqToDB.Mapping.Relationship.OneToMany, IsBackReference=true)]
 		public IEnumerable<ReviewSentimental> Reviewsentimentalproductdetails { get; set; }
+
+		#endregion
+	}
+
+	[Table(Schema="dbo", Name="product_entities")]
+	public partial class ProductEntity
+	{
+		[Column("id"),                   PrimaryKey,  NotNull] public long   Id                 { get; set; } // bigint
+		[Column("product_id"),                        NotNull] public long   ProductId          { get; set; } // bigint
+		[Column("entity_name"),                       NotNull] public string EntityName         { get; set; } // nvarchar(250)
+		[Column("entity_avg_sentiment"),              NotNull] public float  EntityAvgSentiment { get; set; } // real
+		[Column("hit_count"),               Nullable         ] public long?  HitCount           { get; set; } // bigint
+
+		#region Associations
+
+		/// <summary>
+		/// FK__product_e__produ__03F0984C
+		/// </summary>
+		[Association(ThisKey="ProductId", OtherKey="Id", CanBeNull=false, Relationship=LinqToDB.Mapping.Relationship.ManyToOne, KeyName="FK__product_e__produ__03F0984C", BackReferenceName="Producteprodu03F0984C")]
+		public ProductDetail Product { get; set; }
 
 		#endregion
 	}
@@ -112,17 +140,33 @@ namespace DataModels
 		[Association(ThisKey="ProductId", OtherKey="Id", CanBeNull=true, Relationship=LinqToDB.Mapping.Relationship.ManyToOne, KeyName="FK_product_review_product_detail", BackReferenceName="Productreviewproductdetails")]
 		public ProductDetail Product { get; set; }
 
+		/// <summary>
+		/// FK__review_se__revie__01142BA1_BackReference
+		/// </summary>
+		[Association(ThisKey="Id", OtherKey="ReviewId", CanBeNull=true, Relationship=LinqToDB.Mapping.Relationship.OneToMany, IsBackReference=true)]
+		public IEnumerable<ReviewSentimental> Reviewserevie01142Bas { get; set; }
+
 		#endregion
+	}
+
+	[Table(Schema="dbo", Name="product_sentiments")]
+	public partial class ProductSentiment
+	{
+		[Column("id"),                  PrimaryKey,  NotNull] public long   Id                { get; set; } // bigint
+		[Column("rating_score_avg"),       Nullable         ] public float? RatingScoreAvg    { get; set; } // real
+		[Column("rating_count"),           Nullable         ] public long?  RatingCount       { get; set; } // bigint
+		[Column("sentiment_score_avg"),    Nullable         ] public float? SentimentScoreAvg { get; set; } // real
+		[Column("sentiment"),              Nullable         ] public string Sentiment         { get; set; } // nvarchar(20)
+		[Column("product_mapping_id"),               NotNull] public long   ProductMappingId  { get; set; } // bigint
 	}
 
 	[Table(Schema="dbo", Name="review_sentimental")]
 	public partial class ReviewSentimental
 	{
-		[Column("id"),                PrimaryKey,  NotNull] public long   Id               { get; set; } // bigint
-		[Column("product_id"),           Nullable         ] public long?  ProductId        { get; set; } // bigint
-		[Column("review_keywords"),      Nullable         ] public string ReviewKeywords   { get; set; } // nvarchar(max)
-		[Column("positive_keywords"),    Nullable         ] public string PositiveKeywords { get; set; } // nvarchar(50)
-		[Column("negative_keywords"),    Nullable         ] public string NegativeKeywords { get; set; } // nvarchar(50)
+		[Column("id"),              PrimaryKey,  NotNull] public long  Id             { get; set; } // bigint
+		[Column("product_id"),         Nullable         ] public long? ProductId      { get; set; } // bigint
+		[Column("review_id"),                    NotNull] public long  ReviewId       { get; set; } // bigint
+		[Column("sentiment_score"),              NotNull] public float SentimentScore { get; set; } // real
 
 		#region Associations
 
@@ -131,6 +175,12 @@ namespace DataModels
 		/// </summary>
 		[Association(ThisKey="ProductId", OtherKey="Id", CanBeNull=true, Relationship=LinqToDB.Mapping.Relationship.ManyToOne, KeyName="FK_review_sentimental_product_detail", BackReferenceName="Reviewsentimentalproductdetails")]
 		public ProductDetail Product { get; set; }
+
+		/// <summary>
+		/// FK__review_se__revie__01142BA1
+		/// </summary>
+		[Association(ThisKey="ReviewId", OtherKey="Id", CanBeNull=false, Relationship=LinqToDB.Mapping.Relationship.ManyToOne, KeyName="FK__review_se__revie__01142BA1", BackReferenceName="Reviewserevie01142Bas")]
+		public ProductReview Review { get; set; }
 
 		#endregion
 	}
@@ -150,7 +200,19 @@ namespace DataModels
 				t.Id == Id);
 		}
 
+		public static ProductEntity Find(this ITable<ProductEntity> table, long Id)
+		{
+			return table.FirstOrDefault(t =>
+				t.Id == Id);
+		}
+
 		public static ProductReview Find(this ITable<ProductReview> table, long Id)
+		{
+			return table.FirstOrDefault(t =>
+				t.Id == Id);
+		}
+
+		public static ProductSentiment Find(this ITable<ProductSentiment> table, long Id)
 		{
 			return table.FirstOrDefault(t =>
 				t.Id == Id);

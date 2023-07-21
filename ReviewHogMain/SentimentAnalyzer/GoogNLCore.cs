@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SentimentAnalyzer
 {
-    public static class GoogNLCore
+    internal static class GoogNLCore
     {
         public static SentimentResponseModel AnalyzeText(string text)
         {
