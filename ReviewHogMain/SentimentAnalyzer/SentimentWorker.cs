@@ -29,7 +29,7 @@ namespace SentimentAnalyzer
 
                     db.InsertWithIdentity(new ReviewSentimental()
                     {
-                        ProductId = review.Product.Id,
+                        ProductId = review.ProductId,
                         ReviewId = review.Id,
                         SentimentScore = response.SentimentScore
                     });
