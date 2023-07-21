@@ -22,7 +22,7 @@ export class HomeComponent {
     this.products = this.appComponent.products
   }
 
-  select(id: number) {
+  select(id: string) {
     this.appComponent.select(id);
   }
 
