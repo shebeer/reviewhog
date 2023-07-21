@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewHogBot", "ReviewHogBot.csproj", "{CA520CAB-2734-4FDC-A5C6-19230E89CE95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReviewHogAPI", "..\ReviewHogAPI\ReviewHogAPI.csproj", "{FF630BDD-8569-458A-89C6-6CBF31594B9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewHogAPI", "..\ReviewHogAPI\ReviewHogAPI.csproj", "{FF630BDD-8569-458A-89C6-6CBF31594B9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SentimentAnalyzer", "..\SentimentAnalyzer\SentimentAnalyzer.csproj", "{5F517316-DA73-4233-AB11-73DBCE40954D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentimentAnalyzer", "..\SentimentAnalyzer\SentimentAnalyzer.csproj", "{5F517316-DA73-4233-AB11-73DBCE40954D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccess", "..\DataAccess\DataAccess.csproj", "{7D6D6E38-068B-4B47-AAC9-C0BCDAECDDCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "..\DataAccess\DataAccess.csproj", "{7D6D6E38-068B-4B47-AAC9-C0BCDAECDDCD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewHogInventoryBot", "..\ReviewHogInventoryBot\ReviewHogInventoryBot.csproj", "{87349949-EE6A-4ADE-8058-2889CEB43046}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CA520CAB-2734-4FDC-A5C6-19230E89CE95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CA520CAB-2734-4FDC-A5C6-19230E89CE95}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CA520CAB-2734-4FDC-A5C6-19230E89CE95}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CA520CAB-2734-4FDC-A5C6-19230E89CE95}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FF630BDD-8569-458A-89C6-6CBF31594B9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FF630BDD-8569-458A-89C6-6CBF31594B9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF630BDD-8569-458A-89C6-6CBF31594B9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{7D6D6E38-068B-4B47-AAC9-C0BCDAECDDCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7D6D6E38-068B-4B47-AAC9-C0BCDAECDDCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7D6D6E38-068B-4B47-AAC9-C0BCDAECDDCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87349949-EE6A-4ADE-8058-2889CEB43046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87349949-EE6A-4ADE-8058-2889CEB43046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87349949-EE6A-4ADE-8058-2889CEB43046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87349949-EE6A-4ADE-8058-2889CEB43046}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
