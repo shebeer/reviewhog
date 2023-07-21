@@ -16,7 +16,7 @@ namespace SentimentAnalyzer
             LanguageServiceSettings settings = new LanguageServiceSettings
             {
                 //TODO: Need to enter a key to make the API calls
-                CallSettings = CallSettings.FromHeader("X-Goog-Api-Key", "AIzaSyAm7yi5ZyyZdt8_rBKNRd63VE9dP4Nvh6o")
+                CallSettings = CallSettings.FromHeader("X-Goog-Api-Key", "")
             };
 
             LanguageServiceClient client = new LanguageServiceClientBuilder
@@ -26,16 +26,13 @@ namespace SentimentAnalyzer
             }.Build();
 
             Document document = Document.FromPlainText(text);
-            AnalyzeSentimentResponse response = client.AnalyzeSentiment(document);
-            AnalyzeEntitySentimentRequest entityRequest = new AnalyzeEntitySentimentRequest()
-            {
-                Document = document
-            };
-            AnalyzeEntitySentimentResponse entityResponse = client.AnalyzeEntitySentiment(entityRequest);
 
-            SentimentResponseModel result = new SentimentResponseModel();
-            result.MapFromGoogleSentimentResponse(response, entityResponse);
+            AnnotateTextResponse senResponse = client.AnnotateText(document,
+                new AnnotateTextRequest.Types.Features
+                    { ExtractDocumentSentiment = true, ExtractEntities = true, ExtractEntitySentiment = true });
 
+            SentimentResponseModel result = new SentimentResponseModel(senResponse);
+            
             return result;
         }
     }

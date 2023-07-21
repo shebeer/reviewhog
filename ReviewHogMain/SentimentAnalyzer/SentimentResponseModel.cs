@@ -1,9 +1,5 @@
 ﻿using Google.Cloud.Language.V1;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SentimentAnalyzer
 {
@@ -13,6 +9,7 @@ namespace SentimentAnalyzer
         {
             public string Name { get; set; }
             public float SentimentScore { get; set; }
+            public float Salience { get; set; }
         }
 
         public float SentimentScore { get; }
@@ -27,9 +24,32 @@ namespace SentimentAnalyzer
             Positive = 1
         }
 
-        public void MapFromGoogleSentimentResponse(AnalyzeSentimentResponse sentimentResponse, AnalyzeEntitySentimentResponse entityResponse)
+        public SentimentResponseModel(AnnotateTextResponse sentimentResponse)
         {
+            SentimentScore = sentimentResponse.DocumentSentiment.Score;
+            SentimentMagnitude = sentimentResponse.DocumentSentiment.Magnitude;
+            if (SentimentScore > 0)
+            {
+                OverallSentiment = Sentiment.Positive;
+            } else if (SentimentScore < 0)
+            {
+                OverallSentiment = Sentiment.Negative;
+            }
+            else
+            {
+                OverallSentiment = Sentiment.Neutral;
+            }
 
+            Entities = new List<EntityModel>();
+            foreach (var entity in sentimentResponse.Entities)
+            {
+                Entities.Add(new EntityModel()
+                {
+                    Name = entity.Name,
+                    SentimentScore = entity.Sentiment.Score,
+                    Salience = entity.Salience
+                });
+            }
         }
     }
 }
