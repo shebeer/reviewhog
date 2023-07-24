@@ -96,7 +96,7 @@ namespace ReviewHogAPI.Controllers
                 {
                     avgRating = Convert.ToDouble(result.StarRatingScore),
                     totalRating = Convert.ToInt32(result.TotalStarRatings),
-                    link = "NA"
+                    link = result.ImageUrl
                 };
             }
 
@@ -128,7 +128,7 @@ namespace ReviewHogAPI.Controllers
                 var sentiments = _db.ProductSentiments.Where(x => x.ProductMappingId == productDetail.ProductMappingId).FirstOrDefault();
 
                 pd.avgRating = Convert.ToDouble(sentiments.RatingScoreAvg);
-                pd.ratingScore = Convert.ToInt32(sentiments.SentimentScoreAvg);
+                pd.ratingScore = sentiments.SentimentScoreAvg.Value;
                 pd.sentiment = sentiments.Sentiment;
 
                 var positiveEntity = _db.ProductEntities.Where(x => x.EntityAvgSentiment > 0 && x.ProductId == prodId)
