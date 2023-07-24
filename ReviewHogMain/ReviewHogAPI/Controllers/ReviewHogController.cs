@@ -139,6 +139,8 @@ namespace ReviewHogAPI.Controllers
 
                 pd.positiveKeywords = positiveEntity.ToList();
                 pd.negativeKeywords = negativeEntity.ToList();
+
+                prodList.Add(pd);
             }
 
             return prodList;
