@@ -70,6 +70,12 @@
     <None Include="Target\Brands\Gatorade\Target_Review_Response_p5.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Target\Brands\Monster Energy\1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Target\Brands\Prime Hydration\1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Target\Brands\Red Bull\Target_Review_Response_p1.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
