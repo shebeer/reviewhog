@@ -52,7 +52,7 @@ namespace ReviewHogAPI.Controllers
             {
                 avgRating = Convert.ToDouble(result.StarRatingScore),
                 totalRating = Convert.ToInt32(result.TotalStarRatings),
-                link = "NA"
+                link = result.ImageUrl
             };
         }
 
@@ -66,7 +66,7 @@ namespace ReviewHogAPI.Controllers
             {
                 avgRating = Convert.ToDouble(result.StarRatingScore),
                 totalRating = Convert.ToInt32(result.TotalStarRatings),
-                link = "NA"
+                link = result.ImageUrl
             };
         }
 
@@ -80,7 +80,7 @@ namespace ReviewHogAPI.Controllers
             {
                 avgRating = Convert.ToDouble(result.StarRatingScore),
                 totalRating = Convert.ToInt32(result.TotalStarRatings),
-                link = "NA"
+                link = result.ImageUrl
             };
         }
 
