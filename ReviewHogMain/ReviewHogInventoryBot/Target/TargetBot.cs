@@ -78,7 +78,7 @@ namespace ReviewHogInventoryBot.Target
             {
                 Name = brandProductMapping[brandName],
                 ProductMappingId = GetProductMappingId(brandName),
-                Upc = "",
+                Upc = response.reviews.results[0].Tcin,
                 BrandName = brandName,
                 SupermarketId = 51,
                 StarRatingScore = Convert.ToDecimal(response.statistics.rating.average),
