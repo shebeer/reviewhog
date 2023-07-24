@@ -25,7 +25,7 @@ namespace ReviewHogAPI.Controllers
         ReviewHogMainDB _db;
         public ReviewHogController()
         {
-            _db= new ReviewHogMainDB();
+            _db = new ReviewHogMainDB();
         }
         
         [HttpGet]
@@ -42,10 +42,10 @@ namespace ReviewHogAPI.Controllers
             return _db.ProductReviews.Where(x => x.ProductId == productId).ToList();
         }
 
-        private Amazon GetAmazonRating(long product_id)
+        private Amazon GetAmazonRating(long product_mapping_id)
         {
             var result = _db.ProductDetails
-                .Where(x => x.Id == product_id && x.SupermarketId == (long)SupermarketEnum.Amazon)
+                .Where(x => x.ProductMappingId == product_mapping_id && x.SupermarketId == (long)SupermarketEnum.Amazon)
                 .FirstOrDefault();
 
             return new Amazon 
@@ -56,10 +56,10 @@ namespace ReviewHogAPI.Controllers
             };
         }
 
-        private Walmart GetWalmartRating(long product_id)
+        private Walmart GetWalmartRating(long product_mapping_id)
         {
             var result = _db.ProductDetails
-                .Where(x => x.Id == product_id && x.SupermarketId == (long)SupermarketEnum.Walmart)
+                .Where(x => x.ProductMappingId == product_mapping_id && x.SupermarketId == (long)SupermarketEnum.Walmart)
                 .FirstOrDefault();
 
             return new Walmart
@@ -70,10 +70,10 @@ namespace ReviewHogAPI.Controllers
             };
         }
 
-        private Target GetTargetRating(long product_id)
+        private Target GetTargetRating(long product_mapping_id)
         {
             var result = _db.ProductDetails
-                .Where(x => x.Id == product_id && x.SupermarketId == (long)SupermarketEnum.Target)
+                .Where(x => x.ProductMappingId == product_mapping_id && x.SupermarketId == (long)SupermarketEnum.Target)
                 .FirstOrDefault();
 
             return new Target
@@ -84,18 +84,23 @@ namespace ReviewHogAPI.Controllers
             };
         }
 
-        private Samsclub GetSamsclubRating(long product_id)
+        private Samsclub GetSamsclubRating(long product_mapping_id)
         {
             var result = _db.ProductDetails
-                .Where(x => x.Id == product_id && x.SupermarketId == (long)SupermarketEnum.Samsclub)
+                .Where(x => x.ProductMappingId == product_mapping_id && x.SupermarketId == (long)SupermarketEnum.Samsclub)
                 .FirstOrDefault();
 
-            return new Samsclub
+            if (result != null)
             {
-                avgRating = Convert.ToDouble(result.StarRatingScore),
-                totalRating = Convert.ToInt32(result.TotalStarRatings),
-                link = "NA"
-            };
+                return new Samsclub
+                {
+                    avgRating = Convert.ToDouble(result.StarRatingScore),
+                    totalRating = Convert.ToInt32(result.TotalStarRatings),
+                    link = "NA"
+                };
+            }
+
+            return null;
         }
 
         [HttpGet]
@@ -104,12 +109,7 @@ namespace ReviewHogAPI.Controllers
         {
             List<ProductOverallDetails> prodList = new List<ProductOverallDetails>();
 
-            foreach (var supermarket in _db.Supermarkets.ToList())
-            {
-                Platforms platform = new Platforms();
-            }
-
-            foreach (var productDetail in _db.ProductDetails)
+            foreach (var productDetail in _db.ProductDetails.ToList())
             {
                 long prodId = productDetail.Id;
                 ProductOverallDetails pd = new ProductOverallDetails();
@@ -119,13 +119,13 @@ namespace ReviewHogAPI.Controllers
                 pd.description = productDetail.BrandName;
                 pd.platforms = new Platforms
                 {
-                    amazon = GetAmazonRating(prodId),
-                    walmart = GetWalmartRating(prodId),
-                    target = GetTargetRating(prodId),
-                    samsclub = GetSamsclubRating(prodId)
+                    amazon = GetAmazonRating(productDetail.ProductMappingId),
+                    walmart = GetWalmartRating(productDetail.ProductMappingId),
+                    target = GetTargetRating(productDetail.ProductMappingId),
+                    samsclub = GetSamsclubRating(productDetail.ProductMappingId)
                 };
 
-                var sentiments = _db.ProductSentiments.Where(x => x.ProductMappingId == prodId).FirstOrDefault();
+                var sentiments = _db.ProductSentiments.Where(x => x.ProductMappingId == productDetail.ProductMappingId).FirstOrDefault();
 
                 pd.avgRating = Convert.ToDouble(sentiments.RatingScoreAvg);
                 pd.ratingScore = Convert.ToInt32(sentiments.SentimentScoreAvg);
