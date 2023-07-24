@@ -109,8 +109,15 @@ namespace ReviewHogAPI.Controllers
         {
             List<ProductOverallDetails> prodList = new List<ProductOverallDetails>();
 
+            List<string> completedRetailer = new List<string>();
+
             foreach (var productDetail in _db.ProductDetails.ToList())
             {
+                if (completedRetailer.Contains($"{productDetail.BrandName}-{productDetail.SupermarketId}"))
+                {
+                    continue;
+                }
+
                 long prodId = productDetail.Id;
                 ProductOverallDetails pd = new ProductOverallDetails();
 
@@ -141,6 +148,7 @@ namespace ReviewHogAPI.Controllers
                 pd.negativeKeywords = negativeEntity.ToList();
 
                 prodList.Add(pd);
+                completedRetailer.Add($"{productDetail.BrandName}-{productDetail.SupermarketId}");
             }
 
             return prodList;
