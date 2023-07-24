@@ -1,0 +1,607 @@
+{
+  "statistics": {
+    "review_count": 36,
+    "question_count": 0,
+    "recommended_count": 23,
+    "not_recommended_count": 2,
+    "recommended_percentage": 92,
+    "reviews_with_images_count": 1,
+    "rating": {
+      "distribution": {
+        "1": 5,
+        "2": 5,
+        "3": 13,
+        "4": 29,
+        "5": 410
+      },
+      "average": 4.81,
+      "positive_percentage": 97,
+      "count": 462,
+      "secondary_averages": [
+        {
+          "id": "Taste",
+          "value": 4.7,
+          "label": "taste",
+          "type": "RATING",
+          "range": 5
+        },
+        {
+          "id": "Value",
+          "value": 4.7,
+          "label": "value",
+          "type": "RATING",
+          "range": 5
+        },
+        {
+          "id": "Quality",
+          "value": 4.83,
+          "label": "quality",
+          "type": "RATING",
+          "range": 5
+        }
+      ]
+    },
+    "calculated_at": "2023-07-20T06:55:43.592Z"
+  },
+  "reviews": {
+    "page": 0,
+    "size": 8,
+    "total_results": 36,
+    "results": [
+      {
+        "id": "921d3d4c-d051-4aac-b282-a1c3f76415da",
+        "external_id": "r119988_16835546UWq7F66mYM",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "7804823859",
+          "nickname": "Bh"
+        },
+        "title": "as described",
+        "text": "Wish you had more flavors available. Dissappointed that to get the sale price I had to order online. Oh well, curbed my impulse buying to $0.00.",
+        "is_verified": true,
+        "is_recommended": true,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-05-08T14:03:36.000+00:00",
+        "modified_at": "2023-05-08T14:38:08.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [
+          "Value",
+          "Quality",
+          "Taste"
+        ],
+        "SecondaryRatings": {
+          "Value": {
+            "Id": "Value",
+            "Value": 5,
+            "Label": "value",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Quality": {
+            "Id": "Quality",
+            "Value": 5,
+            "Label": "quality",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Taste": {
+            "Id": "Taste",
+            "Value": 5,
+            "Label": "taste",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          }
+        },
+        "BadgesOrder": [
+          "verifiedPurchaser"
+        ],
+        "Badges": {
+          "verifiedPurchaser": {
+            "Id": "verifiedPurchaser",
+            "ContentType": "REVIEW",
+            "BadgeType": "Custom"
+          }
+        },
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "2424d85a-c325-41c9-b057-7280928e058a",
+        "external_id": "r119988_16810767OORya7ldgL",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "2493965427",
+          "nickname": "Coated Color Knife Set"
+        },
+        "title": "No Orange Zero",
+        "text": "Had NO CHOICE but to buy this one instead of the Orange Zero which they barely carry here.",
+        "is_verified": true,
+        "is_recommended": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 2,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-04-09T21:46:20.000+00:00",
+        "modified_at": "2023-07-21T16:24:11.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 2,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [
+          "Value",
+          "Quality",
+          "Taste"
+        ],
+        "SecondaryRatings": {
+          "Value": {
+            "Id": "Value",
+            "Value": 3,
+            "Label": "value",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Quality": {
+            "Id": "Quality",
+            "Value": 3,
+            "Label": "quality",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Taste": {
+            "Id": "Taste",
+            "Value": 3,
+            "Label": "taste",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          }
+        },
+        "BadgesOrder": [
+          "verifiedPurchaser"
+        ],
+        "Badges": {
+          "verifiedPurchaser": {
+            "Id": "verifiedPurchaser",
+            "ContentType": "REVIEW",
+            "BadgeType": "Custom"
+          }
+        },
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "d17c36ab-9f57-49a5-91e6-31749fed695e",
+        "external_id": "r119988_1678067720UohFx68T",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "7985801882",
+          "nickname": "obia"
+        },
+        "title": "Tastes good. Not too sweet",
+        "text": "Thirst quenching. Tastes good & refreshing.",
+        "is_verified": false,
+        "is_recommended": true,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-03-06T01:55:39.000+00:00",
+        "modified_at": "2023-03-06T02:38:10.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [
+          "Taste",
+          "Value",
+          "Quality"
+        ],
+        "SecondaryRatings": {
+          "Taste": {
+            "Id": "Taste",
+            "Value": 5,
+            "Label": "taste",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Value": {
+            "Id": "Value",
+            "Value": 5,
+            "Label": "value",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Quality": {
+            "Id": "Quality",
+            "Value": 5,
+            "Label": "quality",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          }
+        },
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "c0428e41-3d3e-4a22-8df4-4d279fbf5fd9",
+        "external_id": "r119988_16753134xEiCC9Ltx2",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "1174859503",
+          "nickname": "Tonja"
+        },
+        "title": "Refreshing taste",
+        "text": "You can’t stand the Texas heat without a Gatorade and Orange flavor is my absolute favorite!",
+        "is_verified": true,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-02-02T04:50:21.000+00:00",
+        "modified_at": "2023-02-02T07:14:32.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 4,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [
+          "verifiedPurchaser"
+        ],
+        "Badges": {
+          "verifiedPurchaser": {
+            "Id": "verifiedPurchaser",
+            "ContentType": "REVIEW",
+            "BadgeType": "Custom"
+          }
+        },
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "daa10c3d-440f-472c-899e-420bcfb3757d",
+        "external_id": "r119988_16627620ykHwaPtHg6",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "1658822264",
+          "nickname": "Karen"
+        },
+        "title": "Gatorade orange shorts drink",
+        "text": "My favorite orange Gatorade",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2022-09-09T22:21:10.000+00:00",
+        "modified_at": "2022-09-09T22:59:35.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "51f2473a-0814-43fb-a052-7c2e3b386d6e",
+        "external_id": "r119988_16620644akk6qnJD9v",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "2120660230",
+          "nickname": "Granny"
+        },
+        "title": "Great product",
+        "text": "Gatorade is a great drink to keep me hydrated during hot summer days",
+        "is_verified": true,
+        "is_recommended": true,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2022-09-01T20:33:33.000+00:00",
+        "modified_at": "2022-09-01T21:04:34.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [
+          "Quality",
+          "Taste",
+          "Value"
+        ],
+        "SecondaryRatings": {
+          "Quality": {
+            "Id": "Quality",
+            "Value": 5,
+            "Label": "quality",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Taste": {
+            "Id": "Taste",
+            "Value": 5,
+            "Label": "taste",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Value": {
+            "Id": "Value",
+            "Value": 5,
+            "Label": "value",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          }
+        },
+        "BadgesOrder": [
+          "verifiedPurchaser"
+        ],
+        "Badges": {
+          "verifiedPurchaser": {
+            "Id": "verifiedPurchaser",
+            "ContentType": "REVIEW",
+            "BadgeType": "Custom"
+          }
+        },
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "368b9066-1f12-4556-847f-dbcff91496cb",
+        "external_id": "r119988_16609534QbrDlTRqGB",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "7985361342",
+          "nickname": "Steve1987"
+        },
+        "title": "Okay",
+        "text": "Okay! Not too good or too bad. Tastes like orange what can I say",
+        "is_verified": false,
+        "is_recommended": true,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 1,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2022-08-19T23:56:53.000+00:00",
+        "modified_at": "2022-08-26T10:43:26.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 3,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [
+          "Taste",
+          "Value",
+          "Quality"
+        ],
+        "SecondaryRatings": {
+          "Taste": {
+            "Id": "Taste",
+            "Value": 3,
+            "Label": "taste",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Value": {
+            "Id": "Value",
+            "Value": 3,
+            "Label": "value",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Quality": {
+            "Id": "Quality",
+            "Value": 3,
+            "Label": "quality",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          }
+        },
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "e7437e59-f961-41ba-ad63-6df6d43abfc6",
+        "external_id": "r119988_16602744FnD7Im81zx",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "1675341453",
+          "nickname": "Morgan"
+        },
+        "title": "Best sports drink",
+        "text": "My kids must have this for all of their sports practices!!",
+        "is_verified": true,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 1,
+          "inappropriate": 1
+        },
+        "status": "APPROVED",
+        "submitted_at": "2022-08-12T03:20:45.000+00:00",
+        "modified_at": "2023-03-19T22:50:53.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [
+          "verifiedPurchaser"
+        ],
+        "Badges": {
+          "verifiedPurchaser": {
+            "Id": "verifiedPurchaser",
+            "ContentType": "REVIEW",
+            "BadgeType": "Custom"
+          }
+        },
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      }
+    ],
+    "total_pages": 5,
+    "first_page": true,
+    "last_page": false
+  },
+  "reviews_with_photos": {
+    "page": 0,
+    "size": 8,
+    "total_results": 1,
+    "results": [
+      {
+        "id": "ac4e2107-9ef7-4a6e-986c-0086eefeabc4",
+        "external_id": "r119988_165411718XY85P350r",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "10005726277",
+          "nickname": "Lucy"
+        },
+        "title": "Garorade grape best on sensitive stomachs",
+        "text": "Our go-to brand for electrolytes, however, since we were not able to find basic grape flavor at any area Targets, I've been buying grape elsewhere. Found that Gatorade grape was the most gentle on a sensitive stomach (whether from food or other ailments including Covid-associated unknowns). All other flavors and brands caused some rumblings. Hope Target will add grape to its line-up. Love Target's competitive pricing, just need to beef up on the flavor channel. 3* for \"taste\" since Target doesn't sell GRAPE (our flavor for sensitive stomachs). Thanks.",
+        "is_verified": true,
+        "is_recommended": true,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 1
+        },
+        "status": "APPROVED",
+        "submitted_at": "2022-06-01T20:59:17.000+00:00",
+        "modified_at": "2022-08-26T10:44:02.000+00:00",
+        "photos": [
+          "https://target.scene7.com/is/image/Target/GUEST_456b7b6f-b336-4908-ae53-2f1580448479"
+        ],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 4,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [
+          "Quality",
+          "Taste",
+          "Value"
+        ],
+        "SecondaryRatings": {
+          "Quality": {
+            "Id": "Quality",
+            "Value": 5,
+            "Label": "quality",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Taste": {
+            "Id": "Taste",
+            "Value": 3,
+            "Label": "taste",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Value": {
+            "Id": "Value",
+            "Value": 4,
+            "Label": "value",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          }
+        },
+        "BadgesOrder": [
+          "verifiedPurchaser"
+        ],
+        "Badges": {
+          "verifiedPurchaser": {
+            "Id": "verifiedPurchaser",
+            "ContentType": "REVIEW",
+            "BadgeType": "Custom"
+          }
+        },
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      }
+    ],
+    "total_pages": 1,
+    "first_page": true,
+    "last_page": true
+  },
+  "metadata": {
+    "has_verified": true,
+    "has_photos": true,
+    "has_entities": false
+  } 
+}
