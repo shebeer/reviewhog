@@ -1,0 +1,743 @@
+{
+  "statistics": {
+    "review_count": 124,
+    "question_count": 0,
+    "recommended_count": 10,
+    "not_recommended_count": 1,
+    "recommended_percentage": 90,
+    "reviews_with_images_count": 11,
+    "rating": {
+      "distribution": {
+        "1": 5,
+        "2": 5,
+        "3": 21,
+        "4": 29,
+        "5": 294
+      },
+      "average": 4.7,
+      "positive_percentage": 97,
+      "count": 354,
+      "secondary_averages": [
+        {
+          "id": "Taste",
+          "value": 4.91,
+          "label": "taste",
+          "type": "RATING",
+          "range": 5
+        },
+        {
+          "id": "Quality",
+          "value": 5.0,
+          "label": "quality",
+          "type": "RATING",
+          "range": 5
+        },
+        {
+          "id": "Value",
+          "value": 4.5,
+          "label": "value",
+          "type": "RATING",
+          "range": 5
+        }
+      ]
+    },
+    "calculated_at": "2023-07-17T20:00:05.113Z"
+  },
+  "reviews": {
+    "page": 0,
+    "size": 8,
+    "total_results": 124,
+    "results": [
+      {
+        "id": "17c00823-68a9-4a89-a5f4-0d574889ae62",
+        "external_id": "947c66ae-6a94-53c4-8af0-9c226f190029",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "64cec3ca-5baf-58c6-9dfe-ae785f331132",
+          "nickname": "eriesisgod"
+        },
+        "title": "Winner of the taste test!",
+        "text": "When my daughter turned 13yo we told her she could start drinking energy drinks. She didnt know what they tasted like so we took her to the store and let her pick a bunch of different drinks out, and the next few weeks she tried them all. In the end she said that the normal redbull was her faviorite.",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-06-18T06:09:02.000+00:00",
+        "modified_at": "2023-06-20T08:29:12.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "81b82c26-a242-4c8c-b480-bb798982f2dd",
+        "external_id": "3a1c411d-8112-539e-8e84-af34c1ae1688",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "4ba31b5a-1626-57c4-9589-ef5226fd54db",
+          "nickname": "cheyenneg46"
+        },
+        "title": "Great",
+        "text": "I always have loved the taste is Red Bull and how it gives me so much energy! 8-12 oz for a pick me up is great. If you want energy, give these a try but do not over do it and drink a lot.",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-06-15T07:19:09.000+00:00",
+        "modified_at": "2023-06-17T08:03:05.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "2c99fe91-db4f-4b07-a0c4-db166947a61e",
+        "external_id": "96f46660-d669-5b5a-9fa3-ca3550039574",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "846dd939-982e-5394-bdec-95271d5fe0ac",
+          "nickname": "joshuam23"
+        },
+        "title": "Most favorite",
+        "text": "Red Bull is the type of energy that works without some of the stuff you don’t want from your energy drinks. With Red Bull, it pairs well within nearly everythingz",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-06-12T20:11:42.000+00:00",
+        "modified_at": "2023-06-14T08:03:38.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "5736bef2-1b85-4178-9e15-e7a3883ba908",
+        "external_id": "ddc17fa2-4e7c-5122-a137-d4a950b0305e",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "d62d7cc6-9174-5713-89cc-946d9b20a521",
+          "nickname": "kaseyf15"
+        },
+        "title": "Good stuff",
+        "text": "Energy is good and not too hard of a crazy fr fr I prefer the coconut one it smacks you a lil but less than others and is refreshing on the tongue. Than",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-06-11T13:23:10.000+00:00",
+        "modified_at": "2023-06-13T08:49:19.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "abb9efa3-2316-4824-b042-51a417bfc1af",
+        "external_id": "396872f7-bb42-5fbf-970c-8a15a76ddb0f",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "c4d91379-969f-5ccd-8667-8b3c6c6c3895",
+          "nickname": "caseyd40"
+        },
+        "title": "Yummy!",
+        "text": "This is my favorite way to start the day! I love the taste. It's almost like a licorice taste. I also really like that the can is skinny so it's easy to hold",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-06-07T11:15:57.000+00:00",
+        "modified_at": "2023-06-09T08:04:22.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "82b886f9-3ba1-4d17-81a6-221af3274acc",
+        "external_id": "a440f95e-4b6f-5499-90e7-db4245efd3bd",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "eee7766f-b2e7-5182-900a-fb295fcf03c4",
+          "nickname": "lillianq1"
+        },
+        "title": "I love redbull",
+        "text": "Redbull in my opinion has the best flavor for energy drinks. I also enjoy the variety (watermelon is also great). Gives you a great boost of energy without feeling too sweet",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 1,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-05-22T00:50:26.000+00:00",
+        "modified_at": "2023-06-09T19:00:45.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "985c885a-5f99-444a-ab8c-c078a9f93b0b",
+        "external_id": "d6062970-4290-5944-a0e8-667dcfefcd03",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "65255020-8510-5bda-bb6a-67ce68c69f9d",
+          "nickname": "diablagoddess1"
+        },
+        "title": "Red bull does Not Give you Wings.lol",
+        "text": "I do love me some redbull ,and it tastes good but if you cannot or don't like a lot of energy or sugar then i would not drink it ... But to me i love me some redbull",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-05-18T19:05:25.000+00:00",
+        "modified_at": "2023-05-20T08:04:22.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "49e73db2-bfe6-4bd0-8c63-12301500d473",
+        "external_id": "122705d2-b6c7-5c2d-938f-7b71a742fdb2",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "147f09a7-eced-557c-b540-e772f4ef7975",
+          "nickname": "sophiel04"
+        },
+        "title": "yum",
+        "text": "i think this one tastes like gasoline but in a good way, but i would totally drink this again. does make me somewhat jittery as compared to a monster",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-05-16T16:05:25.000+00:00",
+        "modified_at": "2023-05-18T08:04:21.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      }
+    ],
+    "total_pages": 16,
+    "first_page": true,
+    "last_page": false
+  },
+  "reviews_with_photos": {
+    "page": 0,
+    "size": 8,
+    "total_results": 11,
+    "results": [
+      {
+        "id": "cf562c45-a46e-4ca6-a198-19c2907d716f",
+        "external_id": "dea77566-a0e1-5629-aa1d-1311f1ff10f7",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "826412dc-634d-5456-9beb-feadc1cf11f4",
+          "nickname": "brynnd6"
+        },
+        "title": "Dont go a day without",
+        "text": "I prefer red bull over Monster or the others any day of the week. To mee its not as sweet or sugary. Goes down smooth and never gives me the crash afterwards",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-05-04T03:51:22.000+00:00",
+        "modified_at": "2023-05-06T08:21:23.000+00:00",
+        "photos": [
+          "https://target.scene7.com/is/image/Target/GUEST_26506de6-2eb7-443f-a59f-00f5617d5a08"
+        ],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "a03dbba8-abeb-4cac-a65e-984969813a4e",
+        "external_id": "a3a5b45e-2185-557a-a587-64d64b607fca",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "c3cb402a-9f19-50b9-b132-e1d748a4960d",
+          "nickname": "maricamb"
+        },
+        "title": "Excellent flavor!!",
+        "text": "When I have a lazy day and without spirits, I do not hesitate to take this product since it gives me energy and its flavor is unbeatable. Recommended",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-04-29T03:09:37.000+00:00",
+        "modified_at": "2023-05-01T08:07:26.000+00:00",
+        "photos": [
+          "https://target.scene7.com/is/image/Target/GUEST_791b4b96-9f16-4733-b183-aa2886cb9cb3"
+        ],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "1f99607a-3851-452f-b8d1-17e2e70d1a02",
+        "external_id": "13337d63-1a13-5119-b2d9-d4c4e88e1318",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "5d5a4d20-83dc-58ea-80c7-ec294d46ab1d",
+          "nickname": "leticiab8"
+        },
+        "title": "Energy drink",
+        "text": "I drink these alone or with Jager. I use to drink them daily but now its sporadically. I keep a stock at rhe house. Comes in many sizes. Thank goodness",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-04-23T04:46:19.000+00:00",
+        "modified_at": "2023-04-25T08:44:22.000+00:00",
+        "photos": [
+          "https://target.scene7.com/is/image/Target/GUEST_9377fb9e-43b9-44cd-a943-701f9784abdd"
+        ],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "22e9c246-87ce-4789-8c7e-29553bfe7966",
+        "external_id": "91c66b69-6b84-52eb-9382-704d0e887384",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "c1008c5f-227c-5995-a33f-63f28aa2c37c",
+          "nickname": "mayas86"
+        },
+        "title": "Red Bull gets me up",
+        "text": "I know most people rise and shine to coffee every morning. I however wake up and grab a red bull to start moving faster. I absolutely LOVE the taste of red bull. And find myself wanting another one not for the jult of energy...but because I crave the flavor. Have realized that if its not ice cold...it does taste slightly different.",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2022-12-06T07:39:30.000+00:00",
+        "modified_at": "2022-12-13T01:03:02.000+00:00",
+        "photos": [
+          "https://target.scene7.com/is/image/Target/GUEST_d9767dc0-929a-4cc1-a7df-89a9b35db68a"
+        ],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "bcd7632b-2174-446d-a87e-e277411d0784",
+        "external_id": "63cfb3e4-f80e-5f35-acd5-d156c9ef1c99",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "03b00ca5-b1a2-5110-a178-8f737300fb2f",
+          "nickname": "hollytucker74"
+        },
+        "title": "Weekly buy!",
+        "text": "My fiance works in construction, and is up early everyday, so he buys a 12 pack of Redbull evwry week! He prefers Redbull over any other energy drink!",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 1,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2022-11-22T15:22:37.000+00:00",
+        "modified_at": "2022-12-01T23:53:42.000+00:00",
+        "photos": [
+          "https://target.scene7.com/is/image/Target/GUEST_c79e962b-8f9b-4029-b944-e4f9bedb86d0"
+        ],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "2fb1ab79-0e56-4fad-a4ec-b09e1c7d8680",
+        "external_id": "0c9ae7d0-35fc-5200-83ef-c4b43a2d35fd",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "758e9934-b6b7-508e-ac88-0a8445d82f4e",
+          "nickname": "kristy2019"
+        },
+        "title": "gives me wings!",
+        "text": "I drink red bull every morning if i dont have a iced coffee.. i drink multiple 12 oz’s a day. I am obsessed with the tartness of it! Especially when its ice cold! The taste is so addicting! They have sooo many good flavors to choose from! After drinking these im like the speed racer, and it gives me energy!",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 1,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2022-11-05T00:32:12.000+00:00",
+        "modified_at": "2022-11-13T20:13:25.000+00:00",
+        "photos": [
+          "https://target.scene7.com/is/image/Target/GUEST_450f0d0d-a47d-4c54-b54e-f9dfe62ad19b"
+        ],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "248aec2c-8866-485b-948d-5e761a62a0af",
+        "external_id": "6b30ae2e-99f7-58b2-a792-f1d98964798a",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "e7d3ff85-0304-59aa-b8e9-1f270f40c1dd",
+          "nickname": "bluestar7589"
+        },
+        "title": "Once every other day",
+        "text": "Use it for every other day for in my working duty - As a US Army, we dont really have the fixed schedule and I’m really need some kind of this to help me awake. It will be good if I can get sample to use it weekly",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2022-10-22T16:35:00.000+00:00",
+        "modified_at": "2022-10-25T08:57:36.000+00:00",
+        "photos": [
+          "https://target.scene7.com/is/image/Target/GUEST_b10c5c80-2bf8-46d2-9b63-e67f201ceb2f"
+        ],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 4,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "e832f3f2-af5c-4d1c-abea-4da574bc4081",
+        "external_id": "502508b6-72df-5b83-bf3e-ce8a9f1d1087",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "8cf7b19d-9215-510d-abf8-a240ce2c1900",
+          "nickname": "klubnichka1908"
+        },
+        "title": "Red bull",
+        "text": "Not sure it “gives you wings” like they say in the commercials, but it certainly works and gives you a good kick of energy, lasting most of the day",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2022-09-22T20:21:04.000+00:00",
+        "modified_at": "2022-09-24T08:19:44.000+00:00",
+        "photos": [
+          "https://target.scene7.com/is/image/Target/GUEST_84f95369-3d4a-4add-bfba-850ba7e4f6e3"
+        ],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      }
+    ],
+    "total_pages": 2,
+    "first_page": true,
+    "last_page": false
+  },
+  "metadata": {
+    "has_verified": true,
+    "has_photos": true,
+    "has_entities": false
+  }
+}

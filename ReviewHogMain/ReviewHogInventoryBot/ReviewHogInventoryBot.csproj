@@ -55,19 +55,34 @@
     <None Include="LinqToDB.Templates\T4Model.ttinclude" />
     <None Include="LinqToDB.Templates\Validation.ttinclude" />
     <None Include="packages.config" />
-    <None Include="Target\Target_Review_Response_p1.json">
+    <None Include="Target\Brands\Gatorade\Target_Review_Response_p1.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Target\Target_Review_Response_p2.json">
+    <None Include="Target\Brands\Gatorade\Target_Review_Response_p2.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Target\Target_Review_Response_p3.json">
+    <None Include="Target\Brands\Gatorade\Target_Review_Response_p3.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Target\Target_Review_Response_p4.json">
+    <None Include="Target\Brands\Gatorade\Target_Review_Response_p4.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Target\Target_Review_Response_p5.json">
+    <None Include="Target\Brands\Gatorade\Target_Review_Response_p5.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Target\Brands\Red Bull\Target_Review_Response_p1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Target\Brands\Red Bull\Target_Review_Response_p2.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Target\Brands\Red Bull\Target_Review_Response_p3.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Target\Brands\Red Bull\Target_Review_Response_p4.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Target\Brands\Red Bull\Target_Review_Response_p5.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
@@ -108,6 +123,7 @@
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

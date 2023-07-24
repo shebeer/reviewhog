@@ -1,0 +1,398 @@
+{
+  "statistics": {
+    "review_count": 124,
+    "question_count": 0,
+    "recommended_count": 10,
+    "not_recommended_count": 1,
+    "recommended_percentage": 90,
+    "reviews_with_images_count": 11,
+    "rating": {
+      "distribution": {
+        "1": 5,
+        "2": 5,
+        "3": 21,
+        "4": 29,
+        "5": 294
+      },
+      "average": 4.7,
+      "positive_percentage": 97,
+      "count": 354,
+      "secondary_averages": [
+        {
+          "id": "Taste",
+          "value": 4.91,
+          "label": "taste",
+          "type": "RATING",
+          "range": 5
+        },
+        {
+          "id": "Quality",
+          "value": 5.0,
+          "label": "quality",
+          "type": "RATING",
+          "range": 5
+        },
+        {
+          "id": "Value",
+          "value": 4.5,
+          "label": "value",
+          "type": "RATING",
+          "range": 5
+        }
+      ]
+    },
+    "calculated_at": "2023-07-17T20:00:05.113Z"
+  },
+  "reviews": {
+    "page": 3,
+    "size": 8,
+    "total_results": 124,
+    "results": [
+      {
+        "id": "46e814e8-9c05-45b0-ad5c-faaa07f8d87d",
+        "external_id": "9144ca98-bd13-5e54-bd79-ca68f8f32aeb",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "e0d71d97-0367-53b0-adea-28aa372c4a75",
+          "nickname": "eminam9"
+        },
+        "title": "Great",
+        "text": "Red Bull will always be a go to for when needing that extra energy love the flavors they have as well. Also for a night out when I’m drinking alcohol this is what I drink with it and you can never go wrong with that",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-03-31T16:17:18.000+00:00",
+        "modified_at": "2023-04-03T08:11:20.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "a17af033-18b6-41da-9e53-9e596993c89d",
+        "external_id": "f5e5c46f-b1c5-5d54-a97d-3fbe1011e53e",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "88454f4d-7188-513b-9f8e-49893fc07f50",
+          "nickname": "allies132"
+        },
+        "title": "Amazong",
+        "text": "I love the taste. The smell isn’t bad. I can drink warm or cold. It makes a great mixer for adult beverages. A pick-me-up in late afternoons, or a road trip drink to keep focused on the rode",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 1,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-03-26T04:28:58.000+00:00",
+        "modified_at": "2023-07-11T02:25:57.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "91ee653b-6738-42d7-958a-5d9a33450df4",
+        "external_id": "9df6fe4b-8a7c-5037-b8a8-3bece2d1c77c",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "10b7119c-9053-5995-ac5a-c91791c6b53e",
+          "nickname": "elizabethc667"
+        },
+        "title": "Too much sugar",
+        "text": "Wayyyy too much sugar, especially mixed with alcohol. However, definitely keeps you up / activity throughout the work day, or a good pre workout drink!",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 1
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-03-15T20:59:19.000+00:00",
+        "modified_at": "2023-04-12T14:43:46.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 3,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "30576847-bbe3-4abe-8c46-d954a8e24098",
+        "external_id": "817f8872-300e-5e0b-964e-f201f05fd7f3",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "668bc67c-770c-5308-805c-d71d60230baa",
+          "nickname": "dianeh81"
+        },
+        "title": "Red Bull",
+        "text": "Out of all the energy drinks I’ve tried this one is by far the better tasting. I get just a small amount of energy boost from this. The only reason I took a star away is because energy drinks aren’t good for you! Overall does the job & taste great!",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-03-15T13:40:28.000+00:00",
+        "modified_at": "2023-03-17T08:11:03.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 4,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "9d049083-9b47-44fa-bf47-dd531b189e6b",
+        "external_id": "804593d0-ba84-5c0f-ad4b-9f1d4410314f",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "5610fb82-ab5d-557c-a528-25c87d85dad1",
+          "nickname": "austinz2"
+        },
+        "title": "Perfect Chaser for Drinks",
+        "text": "I realize that chaser when drinking is a super overlooked option. I want something thats going to give me a pick me up so I normally go for a vodka redbull. Yes I know it's packed with sugar and that definitely doesn't help a hangover, but in the moment while drinking it, it definitely gives me a bit of energy to keep the night going.",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 1,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-03-13T18:22:22.000+00:00",
+        "modified_at": "2023-03-23T19:31:11.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "0f87e74d-e47a-4abb-8fa6-34664aa5dc79",
+        "external_id": "43341fc4-2ef7-5430-9225-765bd17c8e7c",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "5fc695b9-035c-58fd-b89d-baaf0fbbc6b0",
+          "nickname": "alisonh53"
+        },
+        "title": "Definitely doesn't give you wings \uD83D\uDE1C",
+        "text": "I like this drink because it definitely wakes you up and gives you the energy, but I do Not like the taste of this one. For me, the energy lasts long enough that I don't need to drink multiple. I would recommend it only if you don't care about taste I like things that taste sweet.",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-02-27T20:00:18.000+00:00",
+        "modified_at": "2023-03-04T08:10:28.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 3,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "6225e6ef-f123-4f16-ac23-50aee95f3e34",
+        "external_id": "9331a6ab-9050-59ac-af15-32ececfb2ff9",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "dd8b7af1-2336-5447-ad37-0e0473469e1b",
+          "nickname": "oliviachantall"
+        },
+        "title": "Great mixer!",
+        "text": "I really like this for mixing with drinks and the taste isn’t overwhelming like some energy drinks are. I do think less sugar would be better but the sugar free ones just taste different",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-02-26T01:52:33.000+00:00",
+        "modified_at": "2023-03-02T08:11:05.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "b110a035-9bda-4c44-9031-ee5b4c5d9ab2",
+        "external_id": "21cac352-f359-52fb-b0c9-0954dfab0efe",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "5224ea44-079d-5e8f-a3d4-c15f79475be6",
+          "nickname": "meganw247"
+        },
+        "title": "nice drink",
+        "text": "this drink is very good and leaves me feeling very energized! I love the flavor of the product as well so i recommend it",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-02-25T21:41:43.000+00:00",
+        "modified_at": "2023-02-27T08:09:28.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      }
+    ],
+    "total_pages": 16,
+    "first_page": false,
+    "last_page": false
+  },
+  "reviews_with_photos": {
+    "page": 3,
+    "size": 8,
+    "total_results": 11,
+    "results": [],
+    "total_pages": 2,
+    "first_page": false,
+    "last_page": true
+  },
+  "metadata": {
+    "has_verified": true,
+    "has_photos": true,
+    "has_entities": false
+  }
+}

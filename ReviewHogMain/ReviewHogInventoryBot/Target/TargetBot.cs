@@ -15,12 +15,20 @@ namespace ReviewHogInventoryBot.Target
 {
     public class TargetBot
     {
+        private Dictionary<string, string> brandProductMapping = new Dictionary<string, string>
+        {
+            { "Gatorade","Gatorade Orange Sports Drink - 12pk/12 fl oz Bottles" },
+            { "Red Bull","Red Bull Energy Drink - 12pk/8.4 fl oz Cans"},
+            { "Monster Energy","Monster Energy Zero Ultra - 12pk/16 fl oz Cans"},
+            { "Prime Hydration","Prime Hydration Ice Pop Sports Drink - 8pk/16.9 fl oz Bottles"}
+        };
+
         public string JsonResponseFolderPath 
         {
             get 
             {
                 string sPath = Assembly.GetExecutingAssembly().Location;
-                return Path.Combine(Directory.GetParent(sPath).FullName, "Target");
+                return Path.Combine(Directory.GetParent(sPath).FullName, "Target\\Brands");
             }
         }
         public TargetBot()
@@ -29,15 +37,23 @@ namespace ReviewHogInventoryBot.Target
 
         public void StartBot()
         {
-            var files = Directory.GetFiles(JsonResponseFolderPath, "*.json");
+            var folders = Directory.GetDirectories(JsonResponseFolderPath);
 
-            var targetDetailResponse = GetTargetReviewResponse(files[0]);
-            long id = InsertTargetDetailData(targetDetailResponse); //isert only a product detail
-
-            foreach (var file in files)//insert reviewes
+            foreach (var folder in folders)
             {
-                var response = GetTargetReviewResponse(file);
-                InsertTargetReviewData(id, response);
+                DirectoryInfo directory = new DirectoryInfo(folder);
+                var brandName = directory.Name;
+                
+                var files = Directory.GetFiles(directory.FullName, "*.json");
+
+                var targetDetailResponse = GetTargetReviewResponse(files[0]);
+                long id = InsertTargetDetailData(targetDetailResponse, brandName); //isert only a product detail
+
+                foreach (var file in files)//insert reviewes
+                {
+                    var response = GetTargetReviewResponse(file);
+                    InsertTargetReviewData(id, response);
+                }
             }
         }
 
@@ -48,15 +64,22 @@ namespace ReviewHogInventoryBot.Target
             return obj;
         }
 
-        private long InsertTargetDetailData(TargetResponseObj response)
+        private long GetProductMappingId(string brandName)
+        {
+            var db = new ReviewHogMainDB();
+            return db.ProductDetails.Where(x => x.BrandName == brandName).FirstOrDefault().ProductMappingId;
+        }
+
+        private long InsertTargetDetailData(TargetResponseObj response, string brandName)
         {
             var db = new ReviewHogMainDB();
 
             ProductDetail dt = new ProductDetail
             {
-                Name = "Gatorade Orange Sports Drink - 12pk/12 fl oz Bottles",
+                Name = brandProductMapping[brandName],
+                ProductMappingId = GetProductMappingId(brandName),
                 Upc = "",
-                BrandName = string.Empty,
+                BrandName = brandName,
                 SupermarketId = 51,
                 StarRatingScore = Convert.ToDecimal(response.statistics.rating.average),
                 TotalStarRatings = response.statistics.review_count

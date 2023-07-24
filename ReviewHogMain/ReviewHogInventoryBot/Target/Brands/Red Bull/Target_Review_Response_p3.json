@@ -1,0 +1,400 @@
+{
+  "statistics": {
+    "review_count": 124,
+    "question_count": 0,
+    "recommended_count": 10,
+    "not_recommended_count": 1,
+    "recommended_percentage": 90,
+    "reviews_with_images_count": 11,
+    "rating": {
+      "distribution": {
+        "1": 5,
+        "2": 5,
+        "3": 21,
+        "4": 29,
+        "5": 294
+      },
+      "average": 4.7,
+      "positive_percentage": 97,
+      "count": 354,
+      "secondary_averages": [
+        {
+          "id": "Taste",
+          "value": 4.91,
+          "label": "taste",
+          "type": "RATING",
+          "range": 5
+        },
+        {
+          "id": "Quality",
+          "value": 5.0,
+          "label": "quality",
+          "type": "RATING",
+          "range": 5
+        },
+        {
+          "id": "Value",
+          "value": 4.5,
+          "label": "value",
+          "type": "RATING",
+          "range": 5
+        }
+      ]
+    },
+    "calculated_at": "2023-07-17T20:00:05.113Z"
+  },
+  "reviews": {
+    "page": 2,
+    "size": 8,
+    "total_results": 124,
+    "results": [
+      {
+        "id": "5f5f5bd7-24cd-4c97-81bd-6d66dbf1cac4",
+        "external_id": "c1bffe0e-d0b5-5d63-986c-c0c62826fa2e",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "0eb1a74c-9773-5e7c-bf74-97430e57da59",
+          "nickname": "deseraih"
+        },
+        "title": "No other drink taste the same!",
+        "text": "I can’t say that it gives you wings, but what I can say is that there isn’t another drink out there quite like a Red Bull. This savory flavor has been my addiction for years now, even as much as I know how unhealthy that they are for me.",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-04-25T17:56:24.000+00:00",
+        "modified_at": "2023-04-29T08:07:30.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "23ff7e61-b608-4dd0-b8fb-25d5b4e043bc",
+        "external_id": "62cf4e11-1da3-50ec-a0c1-87d71822f060",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "fb06b7f5-36f8-5739-b87f-7dcd9dd3638d",
+          "nickname": "callya4"
+        },
+        "title": "Your New Go to Drink",
+        "text": "As someone who absolutely loves a pick me up throughout the day - Red Bull has me covered! I love the different types of combinations that you can mix depending on the time of day you are in!",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-04-24T14:56:56.000+00:00",
+        "modified_at": "2023-04-27T08:03:59.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "1f99607a-3851-452f-b8d1-17e2e70d1a02",
+        "external_id": "13337d63-1a13-5119-b2d9-d4c4e88e1318",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "5d5a4d20-83dc-58ea-80c7-ec294d46ab1d",
+          "nickname": "leticiab8"
+        },
+        "title": "Energy drink",
+        "text": "I drink these alone or with Jager. I use to drink them daily but now its sporadically. I keep a stock at rhe house. Comes in many sizes. Thank goodness",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-04-23T04:46:19.000+00:00",
+        "modified_at": "2023-04-25T08:44:22.000+00:00",
+        "photos": [
+          "https://target.scene7.com/is/image/Target/GUEST_9377fb9e-43b9-44cd-a943-701f9784abdd"
+        ],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "0da85349-ca00-4d59-bc50-0d58313b3e44",
+        "external_id": "6445e73b-a19e-54ca-848b-ba54b0f851f2",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "21649549-e891-5afb-8d6b-252f71c103ec",
+          "nickname": "patrikp4"
+        },
+        "title": "Grab two every morning on the way to work",
+        "text": "Wakes me up and gets me ready for the day starting at 0500 every morning. One in the morning second in the afternoon. Best energy I tried and have had.",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-04-16T14:20:20.000+00:00",
+        "modified_at": "2023-04-18T08:44:57.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "190f94fe-d003-4703-8a04-244840a24613",
+        "external_id": "68f3ed91-d655-5a2c-bc58-1e0237d9f879",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "dc889943-cc87-5802-952c-b526b1a7f424",
+          "nickname": "alysonb29"
+        },
+        "title": "Delicious with a boost",
+        "text": "When you need a little pick me up but you don't want coffee best form to get some energy without without the jitters and the crash at the end best when served cold",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-04-15T01:26:41.000+00:00",
+        "modified_at": "2023-04-17T08:07:15.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "491d0a32-ee13-432f-9ca5-96ff3e306bfe",
+        "external_id": "40cd2d11-30ac-5fa8-b347-f98962b05e68",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "745e0c0f-ad58-5ee3-87ac-ed902bb1644b",
+          "nickname": "chonthichau"
+        },
+        "title": "Great taste",
+        "text": "This energy drink is strong and taste great, however, I only take this when I really need some strong energy but I mostly prefer the sugar free one!",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-04-14T13:42:41.000+00:00",
+        "modified_at": "2023-04-16T08:05:47.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "897b92d0-2883-42a2-be8c-1eb8a07dbd2f",
+        "external_id": "503a3898-f0a3-561b-84dc-0017055b5928",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "adaac76b-ad4d-5380-98db-a0be624004cb",
+          "nickname": "jennyd168"
+        },
+        "title": "The first time",
+        "text": "Okay y'all let me take you back to when I first started drinking on theses energy drinks I was very jittery and I wanted to run around all over the place but at the end of the day this product did what it was supposed to do and I was satisfied with the results I guess that's the reason why I continue to keep drinking it",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-04-11T12:40:53.000+00:00",
+        "modified_at": "2023-04-14T08:07:44.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 4,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "26e073a8-b273-4f4e-a233-3d27ec1e11a0",
+        "external_id": "ea80494d-ad9c-5fed-bd53-cbf39a7f3a70",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "dbfe6965-34bb-5420-aee8-c7ffcbda9623",
+          "nickname": "cassandraw79"
+        },
+        "title": "Dragging no more!!",
+        "text": "When you need that extra pep in your step to power through the workday stop at your local store or gas station and grab one of these! You will be ready for anything the day wants to send your way!",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-04-06T13:59:45.000+00:00",
+        "modified_at": "2023-04-08T08:07:02.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      }
+    ],
+    "total_pages": 16,
+    "first_page": false,
+    "last_page": false
+  },
+  "reviews_with_photos": {
+    "page": 2,
+    "size": 8,
+    "total_results": 11,
+    "results": [],
+    "total_pages": 2,
+    "first_page": false,
+    "last_page": true
+  },
+  "metadata": {
+    "has_verified": true,
+    "has_photos": true,
+    "has_entities": false
+  }
+}

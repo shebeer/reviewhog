@@ -1,0 +1,516 @@
+{
+  "statistics": {
+    "review_count": 36,
+    "question_count": 0,
+    "recommended_count": 23,
+    "not_recommended_count": 2,
+    "recommended_percentage": 92,
+    "reviews_with_images_count": 1,
+    "rating": {
+      "distribution": {
+        "1": 5,
+        "2": 5,
+        "3": 13,
+        "4": 29,
+        "5": 410
+      },
+      "average": 4.81,
+      "positive_percentage": 97,
+      "count": 462,
+      "secondary_averages": [
+        {
+          "id": "Taste",
+          "value": 4.7,
+          "label": "taste",
+          "type": "RATING",
+          "range": 5
+        },
+        {
+          "id": "Value",
+          "value": 4.7,
+          "label": "value",
+          "type": "RATING",
+          "range": 5
+        },
+        {
+          "id": "Quality",
+          "value": 4.83,
+          "label": "quality",
+          "type": "RATING",
+          "range": 5
+        }
+      ]
+    },
+    "calculated_at": "2023-07-20T06:55:43.592Z"
+  },
+  "reviews": {
+    "page": 1,
+    "size": 8,
+    "total_results": 36,
+    "results": [
+      {
+        "id": "ee65b4e3-c673-45d7-9fc8-390c40703478",
+        "external_id": "r119988_16587968t1bNCo2lJp",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "10018638530",
+          "nickname": "Meredith"
+        },
+        "title": "Orange gatoraide",
+        "text": "My family enjoys drinking this drink. They work on a farm and drink it all day everyday!",
+        "is_verified": true,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 1,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2022-07-26T00:54:00.000+00:00",
+        "modified_at": "2022-08-26T10:44:12.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [
+          "verifiedPurchaser"
+        ],
+        "Badges": {
+          "verifiedPurchaser": {
+            "Id": "verifiedPurchaser",
+            "ContentType": "REVIEW",
+            "BadgeType": "Custom"
+          }
+        },
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "4c303655-4908-49e9-b5d9-8c26f1009655",
+        "external_id": "r119988_165608978ZWmp5wYDe",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "554005041",
+          "nickname": "Tee Red"
+        },
+        "title": "Delicious",
+        "text": "Deliciously refreshing drink to help quench your thirst.",
+        "is_verified": false,
+        "is_recommended": true,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 1,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2022-06-24T16:56:24.000+00:00",
+        "modified_at": "2022-08-26T10:44:17.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [
+          "Value",
+          "Quality",
+          "Taste"
+        ],
+        "SecondaryRatings": {
+          "Value": {
+            "Id": "Value",
+            "Value": 5,
+            "Label": "value",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Quality": {
+            "Id": "Quality",
+            "Value": 5,
+            "Label": "quality",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Taste": {
+            "Id": "Taste",
+            "Value": 5,
+            "Label": "taste",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          }
+        },
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "4343ecd6-0316-489f-880c-d5ede2a757d3",
+        "external_id": "r119988_16547950Xyjr1YqGxl",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "3089495501",
+          "nickname": "Ccd"
+        },
+        "title": "Orange Gatorade",
+        "text": "It’s orange Gatorade. I don’t know what else to say.",
+        "is_verified": true,
+        "is_recommended": true,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 1,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2022-06-09T17:17:41.000+00:00",
+        "modified_at": "2022-08-26T10:44:17.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [
+          "Value",
+          "Quality",
+          "Taste"
+        ],
+        "SecondaryRatings": {
+          "Value": {
+            "Id": "Value",
+            "Value": 5,
+            "Label": "value",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Quality": {
+            "Id": "Quality",
+            "Value": 5,
+            "Label": "quality",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Taste": {
+            "Id": "Taste",
+            "Value": 5,
+            "Label": "taste",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          }
+        },
+        "BadgesOrder": [
+          "verifiedPurchaser"
+        ],
+        "Badges": {
+          "verifiedPurchaser": {
+            "Id": "verifiedPurchaser",
+            "ContentType": "REVIEW",
+            "BadgeType": "Custom"
+          }
+        },
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "0d4b799e-d8ca-45ae-9a88-3994d1f7082d",
+        "external_id": "r119988_16545255uVpIVU4Xu6",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "8117715526",
+          "nickname": "Erica"
+        },
+        "title": "Best sports drink",
+        "text": "My family loves gatorade. I will always have gatorade in my household. When I don’t then I know I need to go to the grocery store.",
+        "is_verified": true,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2022-06-06T14:25:54.000+00:00",
+        "modified_at": "2022-06-06T14:58:15.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [
+          "verifiedPurchaser"
+        ],
+        "Badges": {
+          "verifiedPurchaser": {
+            "Id": "verifiedPurchaser",
+            "ContentType": "REVIEW",
+            "BadgeType": "Custom"
+          }
+        },
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "ac4e2107-9ef7-4a6e-986c-0086eefeabc4",
+        "external_id": "r119988_165411718XY85P350r",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "10005726277",
+          "nickname": "Lucy"
+        },
+        "title": "Garorade grape best on sensitive stomachs",
+        "text": "Our go-to brand for electrolytes, however, since we were not able to find basic grape flavor at any area Targets, I've been buying grape elsewhere. Found that Gatorade grape was the most gentle on a sensitive stomach (whether from food or other ailments including Covid-associated unknowns). All other flavors and brands caused some rumblings. Hope Target will add grape to its line-up. Love Target's competitive pricing, just need to beef up on the flavor channel. 3* for \"taste\" since Target doesn't sell GRAPE (our flavor for sensitive stomachs). Thanks.",
+        "is_verified": true,
+        "is_recommended": true,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 1
+        },
+        "status": "APPROVED",
+        "submitted_at": "2022-06-01T20:59:17.000+00:00",
+        "modified_at": "2022-08-26T10:44:02.000+00:00",
+        "photos": [
+          "https://target.scene7.com/is/image/Target/GUEST_456b7b6f-b336-4908-ae53-2f1580448479"
+        ],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 4,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [
+          "Quality",
+          "Taste",
+          "Value"
+        ],
+        "SecondaryRatings": {
+          "Quality": {
+            "Id": "Quality",
+            "Value": 5,
+            "Label": "quality",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Taste": {
+            "Id": "Taste",
+            "Value": 3,
+            "Label": "taste",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Value": {
+            "Id": "Value",
+            "Value": 4,
+            "Label": "value",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          }
+        },
+        "BadgesOrder": [
+          "verifiedPurchaser"
+        ],
+        "Badges": {
+          "verifiedPurchaser": {
+            "Id": "verifiedPurchaser",
+            "ContentType": "REVIEW",
+            "BadgeType": "Custom"
+          }
+        },
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "2df20625-4821-4256-83f7-fc467d704686",
+        "external_id": "r119988_16525693J9d3BSRziu",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "20066425381",
+          "nickname": "Shelby"
+        },
+        "title": "A classic choice",
+        "text": "Gatorade has always been my go to, when I’m sick, when I’m being active, when I don’t want soda, even my child loves it. Orange is one of the best flavors.",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2022-05-14T23:02:14.000+00:00",
+        "modified_at": "2022-05-15T01:20:37.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "2d096c3d-a6f0-425e-99d6-0939204d40bf",
+        "external_id": "r119988_165150058mgnS11y14",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "3299381043",
+          "nickname": "Baseball Mom"
+        },
+        "title": "Perfect for sports snacks",
+        "text": "I purchased this for a snack after my son's baseball game. Perfect because his team has 11 players and this pack has 12 bottles, so we had 1 extra. And a great bottle size since it is 12oz. That is more than enough for 8 year olds.",
+        "is_verified": true,
+        "is_recommended": true,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2022-05-02T14:09:41.000+00:00",
+        "modified_at": "2022-05-02T14:57:11.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [
+          "verifiedPurchaser"
+        ],
+        "Badges": {
+          "verifiedPurchaser": {
+            "Id": "verifiedPurchaser",
+            "ContentType": "REVIEW",
+            "BadgeType": "Custom"
+          }
+        },
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "342f9b09-78ae-4227-a5cf-29078620362b",
+        "external_id": "r119988_16512565boxy6eh33Y",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "3282164576",
+          "nickname": "gav3"
+        },
+        "title": "Right size",
+        "text": "Size is just right for my family",
+        "is_verified": true,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2022-04-29T18:22:03.000+00:00",
+        "modified_at": "2022-04-29T18:57:37.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [
+          "Value",
+          "Quality",
+          "Taste"
+        ],
+        "SecondaryRatings": {
+          "Value": {
+            "Id": "Value",
+            "Value": 5,
+            "Label": "value",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Quality": {
+            "Id": "Quality",
+            "Value": 5,
+            "Label": "quality",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Taste": {
+            "Id": "Taste",
+            "Value": 5,
+            "Label": "taste",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          }
+        },
+        "BadgesOrder": [
+          "verifiedPurchaser"
+        ],
+        "Badges": {
+          "verifiedPurchaser": {
+            "Id": "verifiedPurchaser",
+            "ContentType": "REVIEW",
+            "BadgeType": "Custom"
+          }
+        },
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      }
+    ],
+    "total_pages": 5,
+    "first_page": false,
+    "last_page": false
+  },
+  "reviews_with_photos": {
+    "page": 1,
+    "size": 8,
+    "total_results": 1,
+    "results": [],
+    "total_pages": 1,
+    "first_page": false,
+    "last_page": true
+  },
+  "metadata": {
+    "has_verified": true,
+    "has_photos": true,
+    "has_entities": false
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "statistics": {
+    "review_count": 36,
+    "question_count": 0,
+    "recommended_count": 23,
+    "not_recommended_count": 2,
+    "recommended_percentage": 92,
+    "reviews_with_images_count": 1,
+    "rating": {
+      "distribution": {
+        "1": 5,
+        "2": 5,
+        "3": 13,
+        "4": 29,
+        "5": 410
+      },
+      "average": 4.81,
+      "positive_percentage": 97,
+      "count": 462,
+      "secondary_averages": [
+        {
+          "id": "Taste",
+          "value": 4.7,
+          "label": "taste",
+          "type": "RATING",
+          "range": 5
+        },
+        {
+          "id": "Value",
+          "value": 4.7,
+          "label": "value",
+          "type": "RATING",
+          "range": 5
+        },
+        {
+          "id": "Quality",
+          "value": 4.83,
+          "label": "quality",
+          "type": "RATING",
+          "range": 5
+        }
+      ]
+    },
+    "calculated_at": "2023-07-20T06:55:43.592Z"
+  },
+  "reviews": {
+    "page": 4,
+    "size": 8,
+    "total_results": 36,
+    "results": [
+      {
+        "id": "2f1746cb-c207-483b-9348-9a37ad4dabe6",
+        "external_id": "r119988_15982685eLh6yX3XaO",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "876419458",
+          "nickname": "willyoumarime"
+        },
+        "text": "I was exhausted after running a 5k in 90° Fahrenheit weather. Stopped into Target and this size is the one that can be found in the refrigerator. This single bottle in its cold state was the thirst-quencher I needed. The orange is delicious! I wish they had more options in the fridge nearby besides Orange, Fruit Punch, and Lemon.",
+        "is_verified": false,
+        "is_recommended": true,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 2,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2020-08-24T11:29:16.000+00:00",
+        "modified_at": "2021-11-27T15:04:19.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [
+          "Value",
+          "Taste",
+          "Quality"
+        ],
+        "SecondaryRatings": {
+          "Value": {
+            "Id": "Value",
+            "Value": 4,
+            "Label": "value",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Taste": {
+            "Id": "Taste",
+            "Value": 5,
+            "Label": "taste",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Quality": {
+            "Id": "Quality",
+            "Value": 5,
+            "Label": "quality",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          }
+        },
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "12ba189d-e425-440c-8440-3e3d15361786",
+        "external_id": "ppr9kdv4tanfyd7q75nndot9s",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "3946717379",
+          "nickname": "Michelle"
+        },
+        "text": "This is the portable adult-sized portion-controlled pick-me-up after a 10 mile run. But let's be real, I would drink this after a 1 mile run or even a half mile run. Ok, I'll fess up, I don't run at all but I do love this size of Gatorade for any situation. I'll eventually pick up running and I know I will be grateful for this product then as well.",
+        "is_verified": false,
+        "is_recommended": true,
+        "feedback": {
+          "helpful": 8,
+          "unhelpful": 2,
+          "inappropriate": 1
+        },
+        "status": "APPROVED",
+        "submitted_at": "2018-10-03T14:49:17.000+00:00",
+        "modified_at": "2023-01-12T22:44:03.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "cfbe8194-f703-4dcd-be09-7b476e45f7f5",
+        "external_id": "dya6q72rj3g4baxgmnnvqcghx",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "3946717379",
+          "nickname": "Michelle"
+        },
+        "text": "Are you a soccer mom? A soccer dad? Anyone who is responsible for hydrating a team or an office after some type of rigorous workout? If so, then this 12pk is for you. Take off those plastic rings, cut them up and be the coolest person on the field when you distribute these little bottles of refreshment around.",
+        "is_verified": false,
+        "is_recommended": true,
+        "feedback": {
+          "helpful": 4,
+          "unhelpful": 3,
+          "inappropriate": 2
+        },
+        "status": "APPROVED",
+        "submitted_at": "2018-10-03T14:41:37.000+00:00",
+        "modified_at": "2023-01-12T22:44:09.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "963d9326-a05a-41d4-98c9-1747c250726a",
+        "external_id": "evca7etxsgmrmlqu7yo4vt8yv",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "3946717379",
+          "nickname": "Michelle"
+        },
+        "text": "Refreshing after you're sweating out from an intense workout",
+        "is_verified": false,
+        "is_recommended": true,
+        "feedback": {
+          "helpful": 2,
+          "unhelpful": 2,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2018-10-03T14:23:46.000+00:00",
+        "modified_at": "2023-01-12T22:44:13.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13674090",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      }
+    ],
+    "total_pages": 5,
+    "first_page": false,
+    "last_page": true
+  },
+  "reviews_with_photos": {
+    "page": 4,
+    "size": 8,
+    "total_results": 1,
+    "results": [],
+    "total_pages": 1,
+    "first_page": false,
+    "last_page": true
+  },
+  "metadata": {
+    "has_verified": true,
+    "has_photos": true,
+    "has_entities": false
+  }
+}

@@ -1,0 +1,428 @@
+{
+  "statistics": {
+    "review_count": 124,
+    "question_count": 0,
+    "recommended_count": 10,
+    "not_recommended_count": 1,
+    "recommended_percentage": 90,
+    "reviews_with_images_count": 11,
+    "rating": {
+      "distribution": {
+        "1": 5,
+        "2": 5,
+        "3": 21,
+        "4": 29,
+        "5": 294
+      },
+      "average": 4.7,
+      "positive_percentage": 97,
+      "count": 354,
+      "secondary_averages": [
+        {
+          "id": "Taste",
+          "value": 4.91,
+          "label": "taste",
+          "type": "RATING",
+          "range": 5
+        },
+        {
+          "id": "Quality",
+          "value": 5.0,
+          "label": "quality",
+          "type": "RATING",
+          "range": 5
+        },
+        {
+          "id": "Value",
+          "value": 4.5,
+          "label": "value",
+          "type": "RATING",
+          "range": 5
+        }
+      ]
+    },
+    "calculated_at": "2023-07-17T20:00:05.113Z"
+  },
+  "reviews": {
+    "page": 4,
+    "size": 8,
+    "total_results": 124,
+    "results": [
+      {
+        "id": "507555f5-66e7-4228-9fc4-5e43376fcbf4",
+        "external_id": "368ed486-e833-53cf-bffb-1deadc2cb003",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "30a0dc99-69e5-59a5-b7f6-fb19955422a8",
+          "nickname": "catherinen45"
+        },
+        "title": "So overpriced",
+        "text": "I hate the taste of these. They have never improved my energy levels either. I’m not sure how people drink these everyday. That is just my opinion though !",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-02-25T15:09:24.000+00:00",
+        "modified_at": "2023-02-27T08:08:59.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 2,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "0aa91c5f-d38f-40e8-af94-89dcb3ca1efd",
+        "external_id": "r119988_167639372PPu9Lal3n",
+        "is_syndicated": false,
+        "channel": "TARGET",
+        "author": {
+          "external_id": "20085434006",
+          "nickname": "Cj"
+        },
+        "title": "Red bull",
+        "text": "The savings I got was amazing because I’m a circle member",
+        "is_verified": true,
+        "is_recommended": true,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-02-14T16:55:39.000+00:00",
+        "modified_at": "2023-02-14T17:34:34.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [
+          "Value",
+          "Taste",
+          "Quality"
+        ],
+        "SecondaryRatings": {
+          "Value": {
+            "Id": "Value",
+            "Value": 5,
+            "Label": "value",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Taste": {
+            "Id": "Taste",
+            "Value": 5,
+            "Label": "taste",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          },
+          "Quality": {
+            "Id": "Quality",
+            "Value": 5,
+            "Label": "quality",
+            "ValueRange": 5,
+            "DisplayType": "NORMAL"
+          }
+        },
+        "BadgesOrder": [
+          "verifiedPurchaser"
+        ],
+        "Badges": {
+          "verifiedPurchaser": {
+            "Id": "verifiedPurchaser",
+            "ContentType": "REVIEW",
+            "BadgeType": "Custom"
+          }
+        },
+        "SourceClient": "targetcom",
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "baefb7a4-5840-46c9-9e8d-e0551b5f864f",
+        "external_id": "f3636215-cf2a-5ea2-8e6a-d826d9f9dcb7",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "c9ef3be9-b2c1-5b84-83bd-ac6df3d7009b",
+          "nickname": "mahamu1"
+        },
+        "title": "Effective",
+        "text": "Definitely gives you that extra kick of energy for when you’re sleepy or tired and desperately need it. I feel I get a little jittery hyper with more than one can. But Heyy it works",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-02-12T17:06:56.000+00:00",
+        "modified_at": "2023-02-14T08:54:49.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "152ff7d9-382b-4d94-bde6-11f7cb547b4f",
+        "external_id": "4066cff9-fe1a-5a54-849e-8e5587e88905",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "16cc136e-f90a-5180-ad2e-6c1f15471068",
+          "nickname": "farihac56"
+        },
+        "title": "Good one",
+        "text": "My friends love it, always recommend me to try this. I don’t like drinking energy drink but the test is not that bad, recommend this",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-02-03T15:42:27.000+00:00",
+        "modified_at": "2023-02-05T08:11:58.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 4,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "21443b57-7ab9-4b56-8c40-012f4dca4ff8",
+        "external_id": "727735a9-81d9-52ea-a0f3-00c71b8c276b",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "800d62e6-4f81-55b4-9268-34ddbdbe6d0e",
+          "nickname": "estefanyg46"
+        },
+        "title": "Better than coffee",
+        "text": "Love the taste and how convenient the small bottles are. It gives you the extra energy you need. I really recommend this drink.",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-01-29T10:30:48.000+00:00",
+        "modified_at": "2023-01-31T08:18:49.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "42c58f1a-3d1c-48b6-8354-c8d5b31c26f4",
+        "external_id": "d26153df-3279-5964-a9d4-72f66312d227",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "0773394f-d583-533d-bf4b-a53032c7e3ce",
+          "nickname": "kayceeh515"
+        },
+        "title": "Love it",
+        "text": "I absolutely love Red Bull I just about live on it I literally drink one everyday The original is my favorite however there are many other good flavors",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-01-29T00:04:00.000+00:00",
+        "modified_at": "2023-01-31T08:49:49.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "f2240611-d944-4312-afaa-ebd5152b5941",
+        "external_id": "c3e91045-104b-5e3c-98e4-02fe79ce24d1",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "7e3f9341-2e8b-56a9-9af6-14bd688cf781",
+          "nickname": "christinam480"
+        },
+        "title": "Zoom Zoom",
+        "text": "I don't like many energy drinks due to the flavor but Red bull seems to be my one favorite. It's a good pick me up in the afternoon as well. I however could do without the crash.",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-01-22T06:05:29.000+00:00",
+        "modified_at": "2023-01-24T08:51:28.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 5,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      },
+      {
+        "id": "bdfae281-2eb7-47c8-b1ee-85f4990fd74a",
+        "external_id": "27cbfc61-c158-5be9-be9e-a3d56e1fad95",
+        "is_syndicated": true,
+        "channel": "BV",
+        "author": {
+          "external_id": "653fc6cc-83bd-53d5-b2bf-d654982c13af",
+          "nickname": "marisas68"
+        },
+        "title": "Next, please",
+        "text": "I cannot stand the taste of Red Bull but it’s definitely personal preference. It will give you the energy you’re looking for!",
+        "is_verified": false,
+        "feedback": {
+          "helpful": 0,
+          "unhelpful": 0,
+          "inappropriate": 0
+        },
+        "status": "APPROVED",
+        "submitted_at": "2023-01-17T14:55:58.000+00:00",
+        "modified_at": "2023-01-19T08:12:18.000+00:00",
+        "photos": [],
+        "tags": [],
+        "reviewer_attributes": [],
+        "ClientResponses": [],
+        "Entities": [],
+        "Tcin": "13426757",
+        "Rating": 2,
+        "RatingRange": 5,
+        "SecondaryRatingsOrder": [],
+        "SecondaryRatings": {},
+        "BadgesOrder": [],
+        "Badges": {},
+        "SourceClient": "influenster.com",
+        "SyndicationSource": {
+          "id": "influenster",
+          "logo": "https://contentorigin.bazaarvoice.com/influenster/default/influenster.png",
+          "name": "influenster.com"
+        },
+        "IsRatingsOnly": false,
+        "ClientResponseCount": 0
+      }
+    ],
+    "total_pages": 16,
+    "first_page": false,
+    "last_page": false
+  },
+  "reviews_with_photos": {
+    "page": 4,
+    "size": 8,
+    "total_results": 11,
+    "results": [],
+    "total_pages": 2,
+    "first_page": false,
+    "last_page": true
+  },
+  "metadata": {
+    "has_verified": true,
+    "has_photos": true,
+    "has_entities": false
+  }
+}
