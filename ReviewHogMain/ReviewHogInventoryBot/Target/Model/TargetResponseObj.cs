@@ -15,7 +15,6 @@ namespace ReviewHogInventoryBot.Target.Model
         public Metadata metadata { get; set; }
     }
 
-    // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
     public class Author
     {
         public string external_id { get; set; }

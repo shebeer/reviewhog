@@ -15,12 +15,12 @@ namespace ReviewHogInventoryBot.Target
 {
     public class TargetBot
     {
-        public string JsonResponseFilePath 
+        public string JsonResponseFolderPath 
         {
             get 
             {
                 string sPath = Assembly.GetExecutingAssembly().Location;
-                return Path.Combine(Directory.GetParent(sPath).FullName, "Target\\Target_Review_Response.json");
+                return Path.Combine(Directory.GetParent(sPath).FullName, "Target");
             }
         }
         public TargetBot()
@@ -29,22 +29,26 @@ namespace ReviewHogInventoryBot.Target
 
         public void StartBot()
         {
-            var response = GetTargetReviewResponse();
-            long id = InsertTargetDetailData(response);
-            InsertTargetReviewData(id, response);
+            var files = Directory.GetFiles(JsonResponseFolderPath, "*.json");
+
+            var targetDetailResponse = GetTargetReviewResponse(files[0]);
+            long id = InsertTargetDetailData(targetDetailResponse); //isert only a product detail
+
+            foreach (var file in files)//insert reviewes
+            {
+                var response = GetTargetReviewResponse(file);
+                InsertTargetReviewData(id, response);
+            }
         }
 
-        internal TargetResponseObj GetTargetReviewResponse()
+        private TargetResponseObj GetTargetReviewResponse(string filePath)
         {
-            //Todo get response from API call
-            string filePath = JsonResponseFilePath;
-
             string jsonResponse = File.ReadAllText(filePath);
             var obj = JsonConvert.DeserializeObject<TargetResponseObj>(jsonResponse);
             return obj;
         }
 
-        internal long InsertTargetDetailData(TargetResponseObj response)
+        private long InsertTargetDetailData(TargetResponseObj response)
         {
             var db = new ReviewHogMainDB();
 
@@ -61,7 +65,7 @@ namespace ReviewHogInventoryBot.Target
             return db.InsertWithInt64Identity(dt);
         }
 
-        internal void InsertTargetReviewData(long productId, TargetResponseObj response)
+        private void InsertTargetReviewData(long productId, TargetResponseObj response)
         {
             var db = new ReviewHogMainDB();
 
